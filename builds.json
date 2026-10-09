@@ -1,0 +1,1454 @@
+{
+ "version": 2,
+ "updatedAt": "2026-10-09",
+ "meta": "Meta di ottobre 2026",
+ "sources": [
+  "Dati Ranked SeeMeta (9 settembre – 9 ottobre 2026)",
+  "Brawl Insights, Brawl Planet, noff.gg, Brawl Time Ninja (ottobre 2026)",
+  "Note di rilascio ufficiali Supercell 2026"
+ ],
+ "brawlers": {
+  "16000000": {
+   "overview": {
+    "role": "Danni ravvicinati",
+    "difficulty": 1,
+    "tier": "D",
+    "tierNote": "In Ranked è sotto la media (circa 45% di vittorie): rende molto meglio in Footbrawl e in Sopravvivenza.",
+    "summary": "Shelly fa tanti danni solo da vicino: più pallettoni vanno a segno, più il colpo fa male. Il suo gioco è aspettare nei cespugli o dietro un muro, entrare a bruciapelo e sparare tutto. La super abbatte i muri e sbalza via chi sopravvive.",
+    "tips": [
+     "Non sparare da lontano: i danni dipendono da quanti pallettoni colpiscono. Avvicinati prima, poi scarica.",
+     "Aspetta nei cespugli con la super carica: è la tua arma migliore per un'imboscata.",
+     "Turbostivali ricarica tutte le munizioni: svuota i colpi, scatta e spara altri tre colpi pieni.",
+     "La super si ferma sul primo muro che abbatte: se il nemico è dietro un riparo, prima apri il muro e poi finiscilo.",
+     "Evita le corsie aperte contro i tiratori: vai dove ci sono tank e assassini, che devono venirti vicino."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di base per il Ranked e per Footbrawl.",
+     "gadget": {
+      "name": "Fast Forward",
+      "note": "Uno scatto mirato che ricarica anche tutte le munizioni: arrivi a bruciapelo e spari subito tre colpi pieni. È il modo più semplice per risolvere il suo problema principale, la distanza.",
+      "alt": {
+       "name": "Clay Pigeons",
+       "note": "Sulle mappe aperte o contro chi ti tiene lontana: per tre colpi la rosata si stringe e arriva più lontano. Mentre è attivo, però, la super si carica più lentamente."
+      }
+     },
+     "starPower": {
+      "name": "Band-Aid",
+      "note": "Quando scendi sotto il 40% di salute ti curi di colpo, una volta ogni 15 secondi: negli scontri ravvicinati è come avere una seconda vita.",
+      "alt": {
+       "name": "Shell Shock",
+       "note": "Contro tank e assassini che scappano dopo lo sbalzo: la super li rallenta molto per 2 secondi e hai il tempo di finirli."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Assorbe i colpi mentre accorci la distanza, il momento in cui Shelly è più vulnerabile."
+      },
+      {
+       "gear": "damage",
+       "note": "+15% di danni sotto metà vita: con Cerotti combatti spesso ferita, quindi è attivo quasi sempre negli scontri."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "speed",
+       "note": "Sulle mappe piene di cespugli: nell'erba ti muovi più veloce e arrivi addosso senza farti vedere."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Se vuoi usare Turbostivali il più spesso possibile."
+      }
+     ]
+    },
+    {
+     "title": "Sopravvivenza",
+     "when": "Cespugli, scontri improvvisi e nessuno che ti cura: qui Shelly rende molto più che in Ranked.",
+     "gadget": {
+      "name": "Clay Pigeons",
+      "note": "Nelle mappe aperte di Sopravvivenza ti fa colpire anche a media distanza e chiudere chi scappa con poca vita.",
+      "alt": {
+       "name": "Fast Forward",
+       "note": "Se la mappa è stretta e piena di muri, lo scatto con ricarica resta più utile."
+      }
+     },
+     "starPower": {
+      "name": "Band-Aid",
+      "note": "Nessuno ti cura: la cura automatica decide i duelli e ti salva quando arriva un terzo giocatore.",
+      "alt": {
+       "name": "Shell Shock",
+       "note": "Se in zona girano tanti tank veloci."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Con poca vita fai più danni: spesso è proprio il momento che decide lo scontro."
+      },
+      {
+       "gear": "shield",
+       "note": "Ti dà margine quando entri nell'erba dove potrebbe esserci qualcuno."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "health",
+       "note": "Recuperi salute più in fretta tra uno scontro e l'altro."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000005,
+     "note": "La sua modalità migliore in Ranked: la super apre i muri della porta e sbalza via i difensori."
+    },
+    {
+     "id": 48000009,
+     "note": "Cespugli e super carica per l'imboscata: in coppia arriva spesso nelle prime posizioni."
+    },
+    {
+     "id": 48000006,
+     "note": "Stesso principio: aspetta nell'erba con la super pronta e colpisci chi passa."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000047,
+     "note": "Il compagno con più vantaggio nei dati: le sue bombe costringono i nemici a spostarsi proprio dove Shelly li aspetta."
+    },
+    {
+     "id": 16000065,
+     "note": "Copre da lontano le corsie dove Shelly non arriva, mentre lei si occupa di chi si avvicina."
+    },
+    {
+     "id": 16000022,
+     "note": "Le mine tengono a bada i tiratori e spingono i nemici verso di lei."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000002,
+      "note": "Per fare danni deve venirle addosso, e lì Shelly colpisce con tutti i pallettoni."
+     },
+     {
+      "id": 16000024,
+      "note": "Tank da mischia: la super la sbalza via e interrompe il suo avvicinamento."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000109,
+      "note": "Il suo matchup peggiore nei dati, meno di una vittoria su cinque: meglio evitarlo."
+     },
+     {
+      "id": 16000014,
+      "note": "Ti tiene lontana con frecce e mine prima che tu possa avvicinarti."
+     },
+     {
+      "id": 16000007,
+      "note": "La torretta controlla lo spazio e ti colpisce mentre cerchi di accorciare la distanza."
+     }
+    ]
+   }
+  },
+  "16000001": {
+   "overview": {
+    "role": "Tiratore",
+    "difficulty": 3,
+    "tier": "B",
+    "tierNote": "Tra i più scelti in Ranked e il migliore in Rapina (oltre il 50% di vittorie). Da dicembre 2025 non può più usare l'equipaggiamento Velocità di ricarica.",
+    "summary": "Colt spara raffiche di proiettili dritti e lunghi: tantissimi danni se colpisci, quasi nulla se sbagli. Vuole corsie lunghe e aperte, dove chi gioca da vicino non riesce a raggiungerlo. Ha poca salute e nessuna fuga: la sua difesa è la distanza.",
+    "tips": [
+     "Mira dove il nemico sta andando, non dove si trova: i colpi che vanno a segno solo in parte sprecano i suoi danni.",
+     "La super ti blocca sul posto: non puoi attaccare né ricaricare, e uno sbalzo o uno stordimento la interrompono. Usala al sicuro o dopo che il nemico ha usato il suo stordimento.",
+     "Caricatore automatico non ricarica più i colpi: è una raffica che rallenta, da usare contro chi ti salta addosso o per finire un bersaglio.",
+     "In Rapina punta la super attraverso i muri davanti alla cassaforte; in Footbrawl non abbattere mai i muri davanti alla tua porta.",
+     "Contro gli assassini continua ad allontanarti mentre spari: devono passare attraverso i tuoi colpi per raggiungerti.",
+     "Resta dietro alla prima linea della tua squadra: senza vie di fuga, ogni errore di posizione si paga."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Rapina e K.O.",
+     "when": "Mappe lunghe e aperte, dove colpisci senza farti avvicinare.",
+     "gadget": {
+      "name": "Speedloader",
+      "note": "Due colpi rapidi che rallentano il bersaglio senza consumare munizioni: i colpi successivi diventano più facili e fermi chi prova a raggiungerti.",
+      "alt": {
+       "name": "Silver Bullet",
+       "note": "Sulle mappe piene di muri o per aprire la cassaforte in Rapina: un colpo perforante che abbatte gli ostacoli. Consuma però munizioni."
+      }
+     },
+     "starPower": {
+      "name": "Magnum Special",
+      "note": "Più portata e proiettili più veloci: sulle corsie lunghe colpisci chi non può risponderti e i tuoi colpi sono più difficili da schivare.",
+      "alt": {
+       "name": "Slick Boots",
+       "note": "Se preferisci schivare e cambiare posizione: corri più veloce, e da settembre 2026 si somma anche all'equipaggiamento Velocità."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Con così poca salute, lo scudo ti fa reggere un colpo in più negli scambi a distanza."
+      },
+      {
+       "gear": "damage",
+       "note": "+15% di danni sotto metà vita: aiuta a vincere lo scambio quando qualcuno ti ha già colpito."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "vision",
+       "note": "Sulle mappe con tanti cespugli: dopo un colpo il nemico resta visibile e sai dove continuare a sparare."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Se usi Caricatore automatico come difesa principale contro gli assassini."
+      }
+     ]
+    },
+    {
+     "title": "Mobilità (Ranked)",
+     "when": "La scelta più usata in Ranked: un po' meno portata, molta più capacità di schivare.",
+     "gadget": {
+      "name": "Speedloader",
+      "note": "Resta il gadget migliore: rallenta e fa danni senza sprecare colpi.",
+      "alt": {
+       "name": "Silver Bullet",
+       "note": "Su mappe chiuse da tanti muri."
+      }
+     },
+     "starPower": {
+      "name": "Slick Boots",
+      "note": "Colt non ha strumenti di fuga: più velocità significa schivare meglio, inseguire e cambiare corsia in tempo.",
+      "alt": {
+       "name": "Magnum Special",
+       "note": "Torna a Magnum Special sulle mappe lunghe di Rapina e K.O."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Il margine che ti serve per sopravvivere al primo scambio."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei già ferito, cioè quando lo scontro si decide."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "speed",
+       "note": "Da settembre 2026 si somma a Stivali aerodinamici: Colt diventa molto difficile da prendere."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000002,
+     "note": "La sua modalità migliore: danni alti e costanti sulla cassaforte e la super che abbatte i muri davanti. Mappe ideali: Bridge Too Far, Hot Potato, Safe Zone."
+    },
+    {
+     "id": 48000020,
+     "note": "Corsie lunghe e nessuna rinascita: la sua portata vince gli scontri a distanza. Mappa consigliata: Middle Ground."
+    },
+    {
+     "id": 48000003,
+     "note": "Colpi precisi da lontano per prendere le stelle senza esporti."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000031,
+     "note": "I facchini attirano il fuoco nemico e premono sulla cassaforte mentre Colt spara da dietro."
+    },
+    {
+     "id": 16000058,
+     "note": "Mette pressione da vicino e tiene lontani gli assassini da Colt."
+    },
+    {
+     "id": 16000086,
+     "note": "La coppia con più vittorie nel meta attuale: Shade entra, Colt finisce."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000024,
+      "note": "In corsie aperte la tieni a distanza, e il rallentamento del gadget le impedisce di arrivarti addosso."
+     },
+     {
+      "id": 16000034,
+      "note": "Deve raggiungerti per fare danni, e tu hai la portata per impedirglielo."
+     },
+     {
+      "id": 16000002,
+      "note": "Lo colpisci per tutto il tragitto; rallentato, non riesce a chiudere la distanza."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000052,
+      "note": "Il mecha ha tanta salute e abbastanza portata per scambiare colpi alla pari."
+     },
+     {
+      "id": 16000026,
+      "note": "Tank veloce che ti raggiunge, e Colt non ha modo di scappare."
+     },
+     {
+      "id": 16000013,
+      "note": "Le sue cure annullano i danni che fai poco alla volta."
+     }
+    ]
+   }
+  },
+  "16000002": {
+   "overview": {
+    "role": "Tank",
+    "difficulty": 1,
+    "tier": "B",
+    "tierNote": "Nella media in Ranked (circa 50%), ma forte in Rapina, dove supera il 52%. Nel 2026 i suoi gadget sono stati rivisti e l'equipaggiamento Supercarica è stato rimosso.",
+    "summary": "Bull è un tank veloce con tanta salute e un fucile a pompa devastante, ma solo a bruciapelo. Vince gli scontri arrivando addosso al nemico grazie a muri, cespugli e corsie strette. La super è una carica lunga che abbatte i muri: serve sia per entrare sia per scappare.",
+    "tips": [
+     "Non usare la super per entrare da lontano in uno scontro: è anche la tua unica via di fuga.",
+     "Spara solo da vicinissimo: tutti e cinque i pallettoni vanno a segno solo a bruciapelo.",
+     "Tieni un colpo di riserva per finire chi scappa, invece di scaricare tutto su un tank.",
+     "Con Stordibrawler: il primo uso rallenta, il secondo (o il rallentamento di un compagno) stordisce. Lo stordimento dura un secondo: spara subito.",
+     "In Rapina la carica attraversa l'acqua e i muri davanti alla cassaforte: è la strada più rapida.",
+     "Non incassare danni inutili: ricarichi la super ai nemici e finisci eliminato."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Controllo",
+     "when": "La build più usata: blocchi il bersaglio e lo finisci a bruciapelo.",
+     "gadget": {
+      "name": "Stomper",
+      "note": "Rallenta tutti i nemici vicini, e chi è già rallentato viene stordito: due usi di fila, o il rallentamento di un compagno, ti danno uno stordimento sicuro per scaricare tutti i colpi.",
+      "alt": {
+       "name": "T-Bone Missile",
+       "note": "Sulle mappe aperte o quando non riesci ad avvicinarti: un colpo a distanza che fa danni e ti cura se va a segno. Utile anche per finire chi scappa."
+      }
+     },
+     "starPower": {
+      "name": "Tough Guy",
+      "note": "Sotto il 30% di salute subisci il 30% di danni in meno: quando sei in mischia diventi molto più difficile da abbattere.",
+      "alt": {
+       "name": "Berserker",
+       "note": "Sotto il 60% di salute ricarichi due volte più in fretta: meglio se scambi colpi di continuo, come in Rapina."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "+15% di danni sotto metà vita: Bull passa lì gran parte degli scontri."
+      },
+      {
+       "gear": "shield",
+       "note": "Un margine in più mentre entri, la fase più rischiosa."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "health",
+       "note": "Con Pallottole proteiche e negli scontri lunghi: le cure rendono di più."
+      },
+      {
+       "gear": "speed",
+       "note": "In Sopravvivenza, sulle mappe con tanti cespugli."
+      }
+     ]
+    },
+    {
+     "title": "Rapina aggressiva",
+     "when": "Per scambiare colpi sulla cassaforte senza fermarti mai.",
+     "gadget": {
+      "name": "T-Bone Missile",
+      "note": "Colpisci e ti curi già mentre arrivi; utile anche quando non puoi restare attaccato alla cassaforte.",
+      "alt": {
+       "name": "Stomper",
+       "note": "Se la difesa nemica ha tanti tank o assassini che ti vengono addosso."
+      }
+     },
+     "starPower": {
+      "name": "Berserker",
+      "note": "Con poca vita ricarichi il doppio: sulla cassaforte i colpi non finiscono mai.",
+      "alt": {
+       "name": "Tough Guy",
+       "note": "Se ti eliminano troppo in fretta prima di arrivare."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni proprio quando sei ferito, cioè quando Furia è attiva."
+      },
+      {
+       "gear": "shield",
+       "note": "Ti fa arrivare alla cassaforte con più salute."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000002,
+     "note": "La sua modalità migliore: la carica attraversa l'acqua e abbatte i muri davanti alla cassaforte, e i pallettoni a bruciapelo la sciolgono. Mappe: Hot Potato, Kaboom Canyon."
+    },
+    {
+     "id": 48000005,
+     "note": "Apre i muri per la squadra e lo sbalzo fa perdere la palla al portatore."
+    },
+    {
+     "id": 48000000,
+     "note": "Tiene il centro sulle mappe con tanti cespugli. Mappa consigliata: Sapphire Plains."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000040,
+     "note": "Il suo fuoco da lontano spinge indietro i nemici e ti apre gli spazi per caricare."
+    },
+    {
+     "id": 16000086,
+     "note": "Due attaccanti insieme: la linea arretrata nemica non regge la pressione."
+    },
+    {
+     "id": 16000015,
+     "note": "Copre la distanza che a Bull manca e finisce chi lui sbalza via."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000043,
+      "note": "Assassino da mischia: per colpirti deve entrare nel tuo raggio, dove i pallettoni fanno più male."
+     },
+     {
+      "id": 16000011,
+      "note": "Stesso motivo: deve stare a contatto, e lì vinci tu."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000040,
+      "note": "Il fuoco continuo da lontano ti scioglie prima che tu arrivi."
+     },
+     {
+      "id": 16000039,
+      "note": "I suoi danni dipendono dalla salute del bersaglio: la tua tanta vita lavora contro di te."
+     },
+     {
+      "id": 16000102,
+      "note": "Il suo matchup peggiore nei dati del Ranked: meglio evitarlo."
+     }
+    ]
+   }
+  },
+  "16000010": {
+   "overview": {
+    "role": "Tank",
+    "difficulty": 1,
+    "tier": "A",
+    "tierNote": "Una delle sorprese del meta dopo il rework dei gadget di settembre 2026: oltre il 53% di vittorie in Ranked e oltre il 56% in Footbrawl.",
+    "summary": "El Primo è un tank con tantissima salute e pugni rapidi a corto raggio. Occupa una corsia, assorbe i danni (che gli caricano anche la super) e poi salta sulla linea arretrata nemica. La super è un salto lungo che sbalza i nemici e abbatte i muri.",
+    "tips": [
+     "Mira la super davanti ai bersagli in movimento: il salto è lento, devi colpire dove saranno.",
+     "La super si carica anche subendo danni: incassare colpi in corsia è utile, purché tu non venga eliminato.",
+     "Tieni Integratori per lanciare dentro la tua squadra il bersaglio chiave: portatore di palla, di gemme o un lanciatore.",
+     "Cerca muri e ripari per avvicinarti: sulle mappe aperte è meglio scegliere un altro brawler.",
+     "Dopo l'atterraggio approfitta del fuoco di El Fuego: chi brucia non si cura, è il momento di finirlo."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La build di riferimento dopo il rework di settembre 2026.",
+     "gadget": {
+      "name": "Suplex Supplement",
+      "note": "Scatta, afferra il primo brawler che tocca e lo scaraventa dietro di sé, cioè dentro la tua squadra: perfetto per strappare il portatore di palla o un tiratore dalla sua posizione.",
+      "alt": {
+       "name": "Asteroid Belt",
+       "note": "Contro squadre piene di proiettili che ti tengono a distanza: per un attimo distrugge i colpi in arrivo. Da settembre 2026 si ricarica più lentamente, quindi non è la scelta di base."
+      }
+     },
+     "starPower": {
+      "name": "El Fuego",
+      "note": "Chi viene colpito dalla super brucia per 4 secondi e intanto non può curarsi: ottimo per finire i bersagli dopo il salto.",
+      "alt": {
+       "name": "Meteor Rush",
+       "note": "Dopo la super corri più veloce per qualche secondo: utile in Footbrawl e Brawl Hockey per portare palla o rientrare in difesa."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "+15% di danni sotto metà vita: da tank ci passi molto tempo."
+      },
+      {
+       "gear": "shield",
+       "note": "Più margine quando entri nella linea nemica."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "superCharge",
+       "note": "Molti giocatori lo usano per avere la super più spesso: se lo possiedi, è una buona alternativa allo scudo."
+      }
+     ]
+    },
+    {
+     "title": "Contro i tiratori (Footbrawl e Hockey)",
+     "when": "Quando la squadra nemica ti tiene lontano con tanti proiettili.",
+     "gadget": {
+      "name": "Asteroid Belt",
+      "note": "Distrugge i proiettili in arrivo per un attimo: attivalo mentre avanzi, proprio quando arriva la raffica.",
+      "alt": {
+       "name": "Suplex Supplement",
+       "note": "Se i nemici non hanno molti proiettili, l'afferrata resta più forte."
+      }
+     },
+     "starPower": {
+      "name": "Meteor Rush",
+      "note": "Dopo la super corri più veloce: portare la palla in porta o tornare in difesa diventa facile.",
+      "alt": {
+       "name": "El Fuego",
+       "note": "Se ti servono più uccisioni che velocità."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei già ferito, cioè quasi sempre a fine avanzata."
+      },
+      {
+       "gear": "shield",
+       "note": "Ti fa arrivare a contatto con più salute."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000005,
+     "note": "La sua modalità migliore: afferra il portatore, abbatte i muri e porta palla con tanta salute. Mappe: Beach Ball, Triple Dribble, Pinball Dreams."
+    },
+    {
+     "id": 48000000,
+     "note": "Tiene il centro e protegge il portatore di gemme."
+    },
+    {
+     "id": 48000017,
+     "note": "Tanta salute per restare nella zona e un salto che sbalza i nemici fuori."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000040,
+     "note": "Il compagno migliore in tutte le fonti: il suo fuoco tiene a bada i nemici mentre tu salti dentro."
+    },
+    {
+     "id": 16000086,
+     "note": "Doppia pressione in avanti: la squadra nemica non sa chi fermare per primo."
+    },
+    {
+     "id": 16000061,
+     "note": "Ti protegge e ti cura: più resti in piedi, più carichi la super assorbendo danni."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000043,
+      "note": "Con la tua salute e i pugni rapidi reggi gli assassini da mischia."
+     },
+     {
+      "id": 16000000,
+      "note": "Hai abbastanza vita per incassare la sua raffica e chiudere la distanza."
+     },
+     {
+      "id": 16000001,
+      "note": "I suoi colpi vanno solo in linea retta e la super ti porta oltre i muri fino a lui."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000086,
+      "note": "Il suo matchup peggiore nei dati del Ranked."
+     },
+     {
+      "id": 16000039,
+      "note": "Danni in percentuale sulla salute: più vita hai, più ti fa male."
+     },
+     {
+      "id": 16000102,
+      "note": "Contro di lui vinci meno della metà delle partite in tutte le fonti."
+     }
+    ]
+   }
+  },
+  "16000015": {
+   "overview": {
+    "role": "Cecchina",
+    "difficulty": 3,
+    "tier": "A",
+    "tierNote": "Specialista: fascia S in K.O. e A in Taglia nel Ranked, nella media nelle altre modalità. A giugno 2026 ha ricevuto più salute e danni.",
+    "summary": "Piper fa più danni quanto più lontano arriva il colpo: dalla distanza massima è devastante, da vicino quasi innocua. Ha poca salute e una ricarica lenta, quindi vive di posizionamento e mira. La super la fa saltare via lasciando bombe dove atterrano gli inseguitori.",
+    "tips": [
+     "Resta sempre alla distanza massima: un colpo ravvicinato fa una frazione dei danni. Allontanati prima di sparare, mai mentre avanzi.",
+     "Con la ricarica lenta non sparare a caso: tieni un colpo per chi ti salta addosso e spara solo quando sei sicura di colpire.",
+     "La super è la tua fuga: tienila finché un assassino non si impegna, e salta in modo che le bombe cadano dove si trova lui.",
+     "Tieni Proiettile guidato per le uccisioni: un bersaglio con poca vita che schiva bene o si nasconde al bordo dello schermo.",
+     "I cespugli sono il pericolo maggiore: fatti coprire dai compagni e non avanzare troppo sulle mappe piene d'erba."
+    ]
+   },
+   "builds": [
+    {
+     "title": "K.O. e Taglia",
+     "when": "La build che usano davvero i giocatori in Ranked.",
+     "gadget": {
+      "name": "Homemade Recipe",
+      "note": "Il colpo successivo insegue il nemico più vicino e arriva un po' più lontano: il tuo colpo più forte diventa un colpo sicuro, ideale per chiudere chi ha poca vita.",
+      "alt": {
+       "name": "Auto Aimer",
+       "note": "Contro due o più assassini: spara da solo al nemico vicino, lo respinge e lo rallenta. È il tuo pulsante d'emergenza."
+      }
+     },
+     "starPower": {
+      "name": "Snappy Sniping",
+      "note": "Ogni colpo a segno restituisce parte di una munizione: compensa la ricarica lenta e tiene alta la pressione negli scambi a distanza.",
+      "alt": {
+       "name": "Ambush",
+       "note": "Solo su mappe piene di cespugli o in Sopravvivenza: molti più danni se spari dall'erba."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Con così poca salute, lo scudo vale un colpo nemico in più."
+      },
+      {
+       "gear": "damage",
+       "note": "Ti aiuta a vincere gli scambi quando sei già ferita."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "vision",
+       "note": "Sulle mappe con cespugli: dopo un colpo il nemico resta visibile."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Se il gadget ti serve per sopravvivere agli assassini."
+      }
+     ]
+    },
+    {
+     "title": "Contro gli assassini",
+     "when": "Mappe con tanti cespugli o squadre nemiche piene di brawler che saltano addosso; buona anche in Sopravvivenza.",
+     "gadget": {
+      "name": "Auto Aimer",
+      "note": "Quando un assassino ti raggiunge, lo respingi e lo rallenti senza dover mirare.",
+      "alt": {
+       "name": "Homemade Recipe",
+       "note": "Se i nemici giocano a distanza e ti serve chiudere le uccisioni."
+      }
+     },
+     "starPower": {
+      "name": "Ambush",
+      "note": "Dall'erba i colpi alla distanza massima fanno molti più danni: perfetto dove i cespugli abbondano.",
+      "alt": {
+       "name": "Snappy Sniping",
+       "note": "Sulle mappe aperte, dove non puoi nasconderti."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Il colpo in più che ti tiene in vita quando ti raggiungono."
+      },
+      {
+       "gear": "vision",
+       "note": "Scovi chi si nasconde nei cespugli prima che ti arrivi addosso."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000020,
+     "note": "La sua modalità migliore: danni costanti dalla massima distanza e nessuna rinascita. Mappe: New Horizons, Out in the Open."
+    },
+    {
+     "id": 48000003,
+     "note": "Prendi stelle da lontano senza scambiare colpi. Mappe: Shooting Star, Hideout."
+    },
+    {
+     "id": 48000002,
+     "note": "Danni sicuri sulla cassaforte da lontano: utile, ma non la sua specialità."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000108,
+     "note": "Le sue protezioni coprono la poca salute di Piper: è la coppia con più vittorie nei dati."
+    },
+    {
+     "id": 16000040,
+     "note": "Il suo fuoco tiene lontani gli assassini dalla tua posizione."
+    },
+    {
+     "id": 16000037,
+     "note": "Il muro della sua super chiude i passaggi che gli assassini usano per raggiungerti."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000030,
+      "note": "Brawler di media distanza: la logori prima che possa avvicinarsi."
+     },
+     {
+      "id": 16000050,
+      "note": "Stesso motivo: non arriva alla tua portata."
+     },
+     {
+      "id": 16000012,
+      "note": "Fragile: due colpi dalla distanza massima lo mettono in fuga."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000078,
+      "note": "Scatta di continuo, schiva il tuo colpo singolo e ti raggiunge."
+     },
+     {
+      "id": 16000026,
+      "note": "Tank che ti arriva addosso e ti sbalza."
+     },
+     {
+      "id": 16000085,
+      "note": "Assassino rapidissimo: da vicino Piper non fa quasi danni."
+     }
+    ]
+   }
+  },
+  "16000013": {
+   "overview": {
+    "role": "Supporto (guaritore)",
+    "difficulty": 1,
+    "tier": "C",
+    "tierNote": "Molto migliorato dopo il rework di settembre 2026, ma sopra la media solo in Zona calda (circa 54% di vittorie).",
+    "summary": "Pocho cura la squadra: il suo attacco a onda larga colpisce i nemici e ora cura sempre anche gli alleati, e la super cura tutti a grande distanza. Fa pochi danni e da solo fatica, ma negli scontri lunghi rende impossibile la vita ai nemici. Rende al massimo dove la squadra resta raggruppata.",
+    "tips": [
+     "Cerca di colpire con la stessa onda alleati e nemici: mira in modo che l'arco passi su entrambi.",
+     "Mettiti qualche casella dietro e in diagonale rispetto al tuo tank, non in fila: gli attacchi che trapassano colpirebbero entrambi.",
+     "Usa la super quando la squadra attacca o per salvare un compagno quasi eliminato; non morire tenendola carica.",
+     "Attiva Diapason e poi la super: le cure si sommano nello stesso scontro.",
+     "Non affrontare da solo tiratori e lanciatori in campo aperto: senza squadra Pocho perde."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata in Ranked.",
+     "gadget": {
+      "name": "Tuning Fork",
+      "note": "Una serie di impulsi che curano tutto il gruppo: attivalo a inizio scontro e la cura si somma a quella della super.",
+      "alt": {
+       "name": "Protective Tunes",
+       "note": "Contro stordimenti, rallentamenti, veleno, fuoco e congelamento: crea un'area che li elimina e protegge gli alleati. Non ferma però gli sbalzi."
+      }
+     },
+     "starPower": {
+      "name": "Screeching Solo",
+      "note": "La super danneggia anche i nemici: siccome il tuo attacco cura già sempre gli alleati, aggiungi pressione senza perdere cure.",
+      "alt": {
+       "name": "Da Capo",
+       "note": "Negli scontri lunghi per la zona o per la palla, con un tank davanti: ogni colpo sugli alleati cura di più."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Più resistenza in prima linea, dove Pocho deve stare per raggiungere tutti con le cure."
+      },
+      {
+       "gear": "damage",
+       "note": "Aiuta negli scontri ravvicinati quando sei già ferito."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "gadgetCooldown",
+       "note": "Più impulsi di Diapason nel corso della partita."
+      },
+      {
+       "gear": "health",
+       "note": "Negli scontri lunghi sulla zona, quando curi più che combattere."
+      }
+     ]
+    },
+    {
+     "title": "Zona calda e Footbrawl",
+     "when": "Scontri lunghi su un punto fisso, con un tank da tenere in vita.",
+     "gadget": {
+      "name": "Tuning Fork",
+      "note": "Cure ripetute a tutto il gruppo, perfette quando la squadra resta nella zona.",
+      "alt": {
+       "name": "Protective Tunes",
+       "note": "Se i nemici hanno tanti stordimenti o veleni."
+      }
+     },
+     "starPower": {
+      "name": "Da Capo",
+      "note": "Ogni colpo sugli alleati cura di più: il tuo tank diventa difficilissimo da abbattere.",
+      "alt": {
+       "name": "Screeching Solo",
+       "note": "Se alla squadra mancano danni."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Resti in piedi più a lungo dentro la zona."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Diapason torna pronto più spesso."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000017,
+     "note": "La sua modalità: i nemici sono fermi e raggruppati nella zona, e il tuo attacco largo e le cure raggiungono tutti. Mappe: In the Liminal, Golden Bay."
+    },
+    {
+     "id": 48000005,
+     "note": "Tiene in vita il portatore di palla e vince gli scontri lunghi."
+    },
+    {
+     "id": 48000000,
+     "note": "Sostiene il portatore di gemme al centro: buona scelta, ma dipende dalla squadra."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000010,
+     "note": "Tanta salute da curare: più resta in piedi, più vale ogni tua cura."
+    },
+    {
+     "id": 16000085,
+     "note": "Assassino che fa scambi rischiosi: tu lo riporti a piena vita dopo ogni attacco."
+    },
+    {
+     "id": 16000054,
+     "note": "Entra, colpisce e torna da te per curarsi."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000032,
+      "note": "Veloce ma fragile: un'onda così larga non si schiva facilmente."
+     },
+     {
+      "id": 16000045,
+      "note": "Stesso motivo: schivare non basta contro un attacco così ampio."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000009,
+      "note": "Ti colpisce da oltre i muri, fuori dalla tua portata."
+     },
+     {
+      "id": 16000048,
+      "note": "Stesso problema: lanci da lontano che non puoi contrastare."
+     },
+     {
+      "id": 16000108,
+      "note": "Contro di lei vinci circa una partita su tre."
+     }
+    ]
+   }
+  },
+  "16000009": {
+   "overview": {
+    "role": "Lanciatore",
+    "difficulty": 3,
+    "tier": "D",
+    "tierNote": "Debole in Ranked (circa 43% di vittorie), resta valido in Footbrawl, K.O. e Sopravvivenza. A settembre 2026 Fidget Spinner è stato potenziato.",
+    "summary": "Dynamike lancia due candelotti oltre i muri: controlla lo spazio dietro i ripari e punisce chi sta fermo o in gruppo. La miccia ha un ritardo, quindi devi prevedere i movimenti. La super è un barile che fa molti danni, abbatte i ripari e sbalza i nemici; da vicino, però, è fragile.",
+    "tips": [
+     "Mira avanti e cerca di colpire con entrambi i candelotti: la miccia è ritardata e il colpo doppio fa il doppio dei danni.",
+     "Prima Carica stordente, poi lancia su un bersaglio, meglio se sta arrivando verso di te: è la tua combinazione per uccidere e la tua difesa.",
+     "Non sprecare munizioni su un muro: tieni sempre un colpo per quando arriva un assassino.",
+     "Usa la super per aprire il riparo che protegge un portatore o un bersaglio con poca vita, e prepara il colpo successivo per dopo lo sbalzo.",
+     "Resta dietro un muro con un compagno tra te e gli assassini: l'errore classico è avanzare troppo sulle mappe aperte."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Ranked",
+     "when": "Footbrawl, K.O. e Taglia.",
+     "gadget": {
+      "name": "Satchel Charge",
+      "note": "Il prossimo attacco stordisce: il nemico resta fermo e il lancio successivo va quasi sicuramente a segno. È la scelta di quasi tutti i giocatori.",
+      "alt": {
+       "name": "Fidget Spinner",
+       "note": "In Sopravvivenza o contro squadre che ti attaccano da vicino: corri più veloce e lanci dinamite tutt'intorno. Dopo il potenziamento di settembre è più forte di quanto dicano i dati d'uso."
+      }
+     },
+     "starPower": {
+      "name": "Demolition",
+      "note": "La super fa molti più danni: a livello alto elimina in un colpo i brawler fragili e fa male anche ai tank.",
+      "alt": {
+       "name": "Dyna-Jump",
+       "note": "In Sopravvivenza e sulle mappe piene di muri: le tue esplosioni ti fanno saltare oltre muri e nemici, ed è la tua via di fuga."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Il primo colpo di un assassino è quello che elimina i lanciatori: lo scudo te lo fa reggere."
+      },
+      {
+       "gear": "damage",
+       "note": "Quando qualcuno ti raggiunge di solito sei già sotto metà vita: lì i danni extra decidono lo scambio."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "vision",
+       "note": "Sulle mappe con cespugli: vedi chi hai colpito e sai dove lanciare di nuovo."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Più stordimenti, o più giri di Fidget Spinner."
+      }
+     ]
+    },
+    {
+     "title": "Sopravvivenza e autodifesa",
+     "when": "Quando sopravvivere agli assassini conta più dei danni della super.",
+     "gadget": {
+      "name": "Satchel Charge",
+      "note": "Lo stordimento ferma chi ti salta addosso e ti dà il tempo di finirlo.",
+      "alt": {
+       "name": "Fidget Spinner",
+       "note": "Se i nemici ti raggiungono spesso: scappi e fai danni allo stesso tempo."
+      }
+     },
+     "starPower": {
+      "name": "Dyna-Jump",
+      "note": "Lanciando ai tuoi piedi vicino a un muro lo salti; in aria non subisci danni diretti.",
+      "alt": {
+       "name": "Demolition",
+       "note": "Se preferisci eliminare i nemici con la super invece di fuggire."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Più margine contro chi ti salta addosso."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Il gadget torna pronto prima: più difese, più fughe."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000005,
+     "note": "La sua modalità migliore in Ranked: i nemici si ammassano attorno alla palla e la super apre i muri vicino alla porta. Mappe: Coarse Course, Pinball Dreams."
+    },
+    {
+     "id": 48000009,
+     "note": "Tanti muri e la possibilità di colpire oltre: ottimi piazzamenti medi."
+    },
+    {
+     "id": 48000020,
+     "note": "Chi si nasconde dietro un riparo non è al sicuro da te. Mappa consigliata: Close Call."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000060,
+     "note": "Attaccante aggressivo che tiene occupati i nemici mentre tu lanci in pace."
+    },
+    {
+     "id": 16000034,
+     "note": "La sua super raggruppa i nemici: il bersaglio perfetto per la tua super e lo stordimento."
+    },
+    {
+     "id": 16000069,
+     "note": "Tank che tiene lontani gli assassini da te."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000020,
+      "note": "Lento e con un attacco che si carica: un bersaglio facile per la doppia dinamite."
+     },
+     {
+      "id": 16000069,
+      "note": "Si ferma per caricare l'attacco: perfetto per i tuoi lanci."
+     },
+     {
+      "id": 16000008,
+      "note": "Lei e l'orso non arrivano oltre i muri, dove tu colpisci."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000011,
+      "note": "Con gli scatti chiude la distanza e schiva la miccia ritardata."
+     },
+     {
+      "id": 16000094,
+      "note": "Ti raggiunge prima che la dinamite esploda."
+     },
+     {
+      "id": 16000107,
+      "note": "Assassino a scatti: stesso problema."
+     }
+    ]
+   }
+  },
+  "16000021": {
+   "overview": {
+    "role": "Controllo e supporto",
+    "difficulty": 2,
+    "tier": "C",
+    "tierNote": "Nella media in Ranked (circa 47%), ma tra i più scelti in K.O. e Taglia, dove rende meglio.",
+    "summary": "Eugenio vive della sua super: una mano magica che afferra il primo nemico colpito, lo trascina verso di lui e lo stordisce per un attimo. Tirare un nemico dentro la tua squadra significa giocare in superiorità numerica. Il suo colpo, se non colpisce nessuno, si divide in schegge alla fine della corsa: utile per controllare i cespugli.",
+    "tips": [
+     "Usa la divisione del colpo apposta: alla distanza massima si apre in schegge, ideali per controllare i cespugli. Da vicino colpisci in pieno.",
+     "Tira solo bersagli che la tua squadra può eliminare: uno con poca vita o con l'obiettivo (palla, gemme, taglia), e solo se qualcuno può seguire.",
+     "Prepara la mano da un cespuglio: i nemici non vedono la mira. L'errore più comune è tirare un tank a piena vita.",
+     "Tieni Spiriti vendicativi per finire più nemici con poca vita; Respingitore magico quando un nemico da mischia ti è addosso.",
+     "Con Sbuffi magici resta vicino ai compagni, dietro la prima linea: la tua portata è media."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Ranked (K.O., Taglia, Arraffagemme)",
+     "when": "La scelta basata sui dati delle partite reali.",
+     "gadget": {
+      "name": "Vengeful Spirits",
+      "note": "Lancia un missile a ricerca contro ogni nemico visibile nei dintorni: finisce chi ha poca vita, anche dietro i muri. Nelle modalità a eliminazione decide i round.",
+      "alt": {
+       "name": "Lamp Blowout",
+       "note": "Contro squadre da mischia come Rosa, Mortis, Edgar o Bull: respinge chi ti è vicino e ti cura un po' se colpisci almeno un nemico."
+      }
+     },
+     "starPower": {
+      "name": "Magic Puffs",
+      "note": "Cura costante agli alleati vicini: in K.O. e Taglia, dove gli scambi a distanza durano a lungo, fa la differenza.",
+      "alt": {
+       "name": "Spirit Slap",
+       "note": "Quando alla squadra mancano danni: la mano fa anche molti danni, e mano più attacco base eliminano in fretta i brawler fragili."
+      }
+     },
+     "gears": [
+      {
+       "gear": "superRange",
+       "note": "L'equipaggiamento mitico di Eugenio: la mano arriva più lontano. Per un brawler che vive di prese, la portata è tutto."
+      },
+      {
+       "gear": "vision",
+       "note": "Le schegge controllano i cespugli; con questo equipaggiamento chi viene colpito resta visibile e sai dove lanciare la mano."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "shield",
+       "note": "Più resistenza contro squadre piene di assassini."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Se punti sui missili di Spiriti vendicativi per chiudere i round."
+      }
+     ]
+    },
+    {
+     "title": "Prese e difesa",
+     "when": "Footbrawl o squadre nemiche con tanti tank e brawler da mischia.",
+     "gadget": {
+      "name": "Lamp Blowout",
+      "note": "Respinge chi ti è addosso e, se colpisci qualcuno, ti cura: la risposta ai tank e agli assassini.",
+      "alt": {
+       "name": "Vengeful Spirits",
+       "note": "Se i nemici giocano a distanza."
+      }
+     },
+     "starPower": {
+      "name": "Spirit Slap",
+      "note": "La mano diventa anche un colpo potente: presa più attacco base è un'eliminazione rapida.",
+      "alt": {
+       "name": "Magic Puffs",
+       "note": "Se la squadra ha bisogno di cure più che di danni."
+      }
+     },
+     "gears": [
+      {
+       "gear": "superRange",
+       "note": "Prese da più lontano, prima che i nemici arrivino a te."
+      },
+      {
+       "gear": "shield",
+       "note": "Ti fa reggere chi riesce comunque ad avvicinarsi."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000020,
+     "note": "La sua modalità: ogni nemico tirato dentro diventa un 3 contro 2 senza rinascite. Mappe: Goldarm Gulch, Belle's Rock."
+    },
+    {
+     "id": 48000003,
+     "note": "Tirare dentro il nemico con la taglia più alta ribalta il punteggio. Mappa: Shooting Star."
+    },
+    {
+     "id": 48000024,
+     "note": "Presa più Ceffone magico è una combinazione da eliminazione nell'uno contro uno."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000004,
+     "note": "Danni alti per eliminare subito chi tiri dentro."
+    },
+    {
+     "id": 16000043,
+     "note": "Salta sul bersaglio che hai appena tirato e stordito."
+    },
+    {
+     "id": 16000054,
+     "note": "Attaccante a raffica che segue la presa per un'eliminazione sicura."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000024,
+      "note": "Si nasconde nei cespugli, ma le schegge la trovano; respingitore e presa la tengono lontana."
+     },
+     {
+      "id": 16000068,
+      "note": "Nei dati sei in vantaggio: una presa la toglie dalla sua posizione."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000102,
+      "note": "Il suo matchup peggiore nei dati del Ranked."
+     },
+     {
+      "id": 16000108,
+      "note": "Contro di lei Eugenio vince poco: meglio evitarla."
+     },
+     {
+      "id": 16000086,
+      "note": "Assassino veloce che punisce ogni colpo mancato."
+     }
+    ]
+   }
+  },
+  "16000043": {
+   "overview": {
+    "role": "Assassino",
+    "difficulty": 2,
+    "tier": "B",
+    "tierNote": "Buona scelta nel Ranked di alto livello quando la squadra lo copre (50–55% in tutte le modalità), debole nelle partite casuali. Ad aprile 2026 i suoi gadget sono stati rivisti.",
+    "summary": "Edgar salta sui bersagli isolati e li finisce con pugni rapidissimi che lo curano a ogni colpo. La super è un salto oltre i muri, si carica anche da sola col tempo e in aria non subisce danni diretti. Il segreto è scegliere bene su chi atterrare.",
+    "tips": [
+     "Salta su un bersaglio, non dentro una squadra: il migliore è un lanciatore o un cecchino isolato o sotto metà vita.",
+     "Tieni Sciarpione per il secondo ingresso o per la fuga: super più Sciarpione con Atterraggio violento significa due esplosioni prima del primo pugno.",
+     "Tieni d'occhio la carica della super: si riempie da sola e con i pugni. Non entrare a inizio partita, aspetta che i nemici abbiano usato munizioni e stordimenti.",
+     "Usa tutti e tre i pugni sullo stesso bersaglio: le cure dipendono dai colpi a segno, dividerli significa perdere uccisione e cura.",
+     "Contro tanti stordimenti e sbalzi scegli Scudo da duri invece di Sciarpione: reggi l'atterraggio."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Tuffo esplosivo",
+     "when": "La build generale, per le modalità con obiettivo.",
+     "gadget": {
+      "name": "Lets Fly",
+      "note": "Lancia la sciarpa, si aggancia al brawler o al muro più vicino e ci salta oltre: un secondo ingresso o una fuga, e attiva anche Atterraggio violento.",
+      "alt": {
+       "name": "Hardcore",
+       "note": "Contro stordimenti, sbalzi e tanti danni all'atterraggio: uno scudo che assorbe molti danni e si consuma col tempo."
+      }
+     },
+     "starPower": {
+      "name": "Hard Landing",
+      "note": "Quando atterri, con la super o con Sciarpione, danneggi chi ti sta intorno, e molto di più chi colpisci in pieno.",
+      "alt": {
+       "name": "Fisticuffs",
+       "note": "Per gli scontri lunghi: i pugni curano di più."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Ti tiene in vita nei primi istanti dopo l'atterraggio, quando tutti ti sparano."
+      },
+      {
+       "gear": "damage",
+       "note": "Combatti quasi sempre sotto metà vita, e siccome ti curi con i danni, più danni significa anche più cure."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "gadgetCooldown",
+       "note": "Se usi Sciarpione come ingresso principale: torna disponibile prima."
+      }
+     ]
+    },
+    {
+     "title": "Resistenza",
+     "when": "Sopravvivenza e scontri lunghi in Footbrawl o Zona calda.",
+     "gadget": {
+      "name": "Lets Fly",
+      "note": "Resta il gadget più versatile per entrare e uscire dagli scontri.",
+      "alt": {
+       "name": "Hardcore",
+       "note": "In Sopravvivenza, per reggere quando arriva un terzo giocatore."
+      }
+     },
+     "starPower": {
+      "name": "Fisticuffs",
+      "note": "I pugni curano molto di più: resti in piedi negli scontri prolungati.",
+      "alt": {
+       "name": "Hard Landing",
+       "note": "Se ti serve danno immediato per eliminare."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Più margine all'inizio di ogni scontro."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni e quindi più cure quando sei ferito."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000002,
+     "note": "Salta il muro e arriva alla cassaforte, dove i pugni rapidissimi fanno danni enormi. Mappe: Hot Potato, Kaboom Canyon."
+    },
+    {
+     "id": 48000020,
+     "note": "Prendi i nemici isolati senza rinascite, soprattutto quando il gas stringe la mappa. Mappe: Flaring Phoenix, Belle's Rock."
+    },
+    {
+     "id": 48000000,
+     "note": "Punisci il portatore di gemme saltando oltre i muri."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000024,
+     "note": "Tank che attira i colpi e stordisce: tu entri senza essere bersagliato."
+    },
+    {
+     "id": 16000040,
+     "note": "Il suo fuoco costringe i nemici a spostarsi; tu salti su chi resta isolato o ferito."
+    },
+    {
+     "id": 16000006,
+     "note": "La sua area oltre i muri spezza la linea nemica e tu raccogli chi ha poca vita."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000048,
+      "note": "Lanciatore che da vicino non si difende: salti il muro dietro cui si nasconde."
+     },
+     {
+      "id": 16000031,
+      "note": "Fa pochi danni: perde qualsiasi scontro ravvicinato."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000066,
+      "note": "Tanti danni a raffica proprio quando gli salti addosso."
+     },
+     {
+      "id": 16000108,
+      "note": "Le sue protezioni assorbono i tuoi pugni."
+     },
+     {
+      "id": 16000086,
+      "note": "Assassino più forte nel meta attuale: vince i duelli con te."
+     }
+    ]
+   }
+  },
+  "16000091": {
+   "overview": {
+    "role": "Danni (controllo area)",
+    "difficulty": 3,
+    "tier": "D",
+    "tierNote": "Va bene nelle partite casuali, sotto la media nel Ranked di alto livello (circa 45%). Nel 2026 ha ricevuto più salute, ma da settembre il richiamo delle stelle fa meno danni.",
+    "summary": "Lumi lancia due mazzafrusti che restano a terra, poi li richiama: tutto ciò che attraversano sulla via del ritorno subisce danni. È una brawler da corsia e da zona: la difficoltà sta nel piazzare le stelle in modo che il richiamo colpisca. La super crea tre esplosioni crescenti, e l'ultima immobilizza i nemici.",
+    "tips": [
+     "Lancia le stelle per preparare il richiamo, non solo per fare danni: piazzale in modo che il ritorno attraversi i nemici.",
+     "Non lanciare la seconda stella contro un nemico vicino: dopo due lanci puoi solo richiamare, e se le stelle sono dietro di te resti senza danni.",
+     "Richiama subito dopo il gadget: ghiaccio o fuoco attorno alle stelle tengono i nemici sulla traiettoria del ritorno.",
+     "Aspetta a usare la super: solo l'ultima esplosione immobilizza, quindi mirala dove il nemico sarà tra un secondo.",
+     "Resta a 6–8 caselle: non hai fughe e la velocità è normale. Arretra appena la super di un assassino è pronta."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Controllo",
+     "when": "La scelta standard in Ranked.",
+     "gadget": {
+      "name": "Grim And Frostbitten",
+      "note": "Crea un'area ghiacciata attorno alle stelle a terra: i nemici scivolano e faticano a uscire dalla traiettoria del richiamo. In Ranked la usano quasi tutti.",
+      "alt": {
+       "name": "Hit The Lights",
+       "note": "Quando vuoi danni invece di controllo: incendia l'area attorno alle stelle e si ricarica molto più in fretta. Ottimo su zone fisse e vicino alla cassaforte."
+      }
+     },
+     "starPower": {
+      "name": "Half-Time",
+      "note": "Chi viene colpito dalle stelle richiamate rallenta: hai il tempo di piazzare il lancio successivo o la super.",
+      "alt": {
+       "name": "42% Burnt",
+       "note": "Nelle modalità a zona: ogni esplosione della super lascia il fuoco a terra."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Lumi non ha modo di scappare: lo scudo è quasi obbligatorio contro gli assassini."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni negli scontri ravvicinati da cui non puoi fuggire."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "gadgetCooldown",
+       "note": "Se ti affidi molto al gadget: tornerà pronto prima."
+      }
+     ]
+    },
+    {
+     "title": "Zona di fuoco",
+     "when": "Zona calda e Rapina, dove c'è un punto fisso da tenere. In Ranked resta più forte la build di controllo.",
+     "gadget": {
+      "name": "Hit The Lights",
+      "note": "Fuoco attorno alle stelle sul punto conteso, con una ricarica molto rapida.",
+      "alt": {
+       "name": "Grim And Frostbitten",
+       "note": "Se ti serve più controllo che danno."
+      }
+     },
+     "starPower": {
+      "name": "42% Burnt",
+      "note": "Le esplosioni della super lasciano fuoco a terra: chi deve restare nella zona continua a bruciare.",
+      "alt": {
+       "name": "Half-Time",
+       "note": "Se i nemici non sono costretti a restare fermi."
+      }
+     },
+     "gears": [
+      {
+       "gear": "gadgetCooldown",
+       "note": "Più fuochi nel corso della partita."
+      },
+      {
+       "gear": "shield",
+       "note": "La difesa minima contro chi ti salta addosso."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000017,
+     "note": "La sua modalità migliore: la zona è fissa, quindi stelle, richiamo e le tre esplosioni della super colpiscono proprio dove i nemici devono stare. Mappe: Open Business, Ring of Fire."
+    },
+    {
+     "id": 48000005,
+     "note": "La super che immobilizza e il ghiaccio fermano il portatore di palla."
+    },
+    {
+     "id": 48000002,
+     "note": "Stelle accanto alla cassaforte: lanci, richiami e la colpisci di continuo."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000000,
+     "note": "La guardia del corpo ideale: copre il vero punto debole di Lumi, la mancanza di una fuga."
+    },
+    {
+     "id": 16000043,
+     "note": "Ghiaccio e immobilizzazione tengono fermi i bersagli per il suo atterraggio; lui punisce chi ti salta addosso."
+    },
+    {
+     "id": 16000038,
+     "note": "Altro brawler da corsia che toglie pressione e colpisce gli stessi bersagli."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000071,
+      "note": "Deve attraversare la tua corsia per arrivare a te."
+     },
+     {
+      "id": 16000051,
+      "note": "Tank che avanza in linea retta: finisce dritto nel richiamo e nella super."
+     },
+     {
+      "id": 16000008,
+      "note": "Gioca a media distanza e non colpisce oltre i muri."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000047,
+      "note": "Attacca da dietro i ripari e ti batte negli scambi a distanza."
+     },
+     {
+      "id": 16000098,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000109,
+      "note": "Contro di lui Lumi vince meno del 40% delle partite."
+     }
+    ]
+   }
+  }
+ }
+}
