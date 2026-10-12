@@ -1,9 +1,9 @@
 {
  "version": 2,
- "updatedAt": "2026-10-09",
+ "updatedAt": "2026-10-12",
  "meta": "Meta di ottobre 2026",
  "sources": [
-  "Dati Ranked SeeMeta (9 settembre – 9 ottobre 2026)",
+  "Dati Ranked SeeMeta (settembre – ottobre 2026)",
   "Brawl Insights, Brawl Planet, noff.gg, Brawl Time Ninja (ottobre 2026)",
   "Note di rilascio ufficiali Supercell 2026"
  ],
@@ -1446,6 +1446,1694 @@
      {
       "id": 16000109,
       "note": "Contro di lui Lumi vince meno del 40% delle partite."
+     }
+    ]
+   }
+  },
+  "16000008": {
+   "overview": {
+    "role": "Combattente con alleato",
+    "difficulty": 1,
+    "tier": "A",
+    "tierNote": "Tra le più solide del momento in Ranked (circa 52% di vittorie), dopo l'aumento di salute e i Buffies di inizio anno.",
+    "summary": "Nita combatte in due: lei colpisce a media distanza con un'onda che attraversa i nemici, l'orso evocato con la super va avanti a prendersi i colpi e a picchiare. Il trucco è caricare la super in fretta e tenere l'orso sempre in campo.",
+    "tips": [
+     "L'onda attraversa i bersagli: mira dove i nemici sono in fila, carichi la super più in fretta.",
+     "Evoca l'orso sopra al nemico, non accanto a te: arriva già a contatto e ti fa guadagnare tempo.",
+     "Orso e Nita insieme: se lui attacca da un lato e tu dall'altro, il nemico non sa chi colpire.",
+     "Quando l'orso muore la super torna a caricarsi: non tenerlo vivo a tutti i costi, usalo come scudo.",
+     "Evita di restare sola contro i tiratori a lunga distanza: senza orso hai poca portata."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di base in Ranked, soprattutto in Zona calda.",
+     "gadget": {
+      "name": "Bear Paws",
+      "note": "L'orso salta e stordisce chi colpisce: interrompi una super nemica o blocchi chi sta scappando dalla zona.",
+      "alt": {
+       "name": "Faux Fur",
+       "note": "In Rapina o contro squadre che fanno molti danni: per qualche secondo l'orso subisce molto meno e resiste di più vicino alla cassaforte."
+      }
+     },
+     "starPower": {
+      "name": "Hyper Bear",
+      "note": "L'orso colpisce molto più spesso: diventa una vera minaccia, non solo un bersaglio da ignorare. Con i Buffies anche Nita ricarica più in fretta dopo i colpi dell'orso.",
+      "alt": {
+       "name": "Bear With Me",
+       "note": "Se vuoi stare in campo più a lungo: ogni colpo dell'orso cura Nita, e ogni colpo di Nita cura l'orso."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Con poca vita fai più danni: utile perché Nita resta spesso in mezzo allo scontro insieme all'orso."
+      },
+      {
+       "gear": "shield",
+       "note": "Un margine in più mentre carichi la super a media distanza."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "speed",
+       "note": "Mappe con tanti cespugli: arrivi in posizione prima degli altri."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Più stordimenti dell'orso nel corso della partita."
+      }
+     ]
+    },
+    {
+     "title": "Rapina",
+     "when": "Quando l'obiettivo è la cassaforte: l'orso diventa un ariete che resiste.",
+     "gadget": {
+      "name": "Faux Fur",
+      "note": "L'orso prende molti meno danni per qualche secondo: lo mandi sulla cassaforte e i difensori faticano a fermarlo.",
+      "alt": {
+       "name": "Bear Paws",
+       "note": "Se i difensori hanno un brawler che va interrotto con lo stordimento."
+      }
+     },
+     "starPower": {
+      "name": "Hyper Bear",
+      "note": "Più colpi al secondo sulla cassaforte: è il modo più rapido per farle male.",
+      "alt": {
+       "name": "Bear With Me",
+       "note": "Se la squadra avversaria punta tutto sui danni a distanza e ti serve resistere."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei in difficoltà vicino alla cassaforte."
+      },
+      {
+       "gear": "shield",
+       "note": "Ti fa sopravvivere alla prima raffica dei difensori."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000017,
+     "note": "La sua modalità migliore: l'orso occupa la zona e costringe i nemici a scegliere tra lui e te. Mappe: Ring of Fire, Open Business."
+    },
+    {
+     "id": 48000002,
+     "note": "L'orso con Pelliccia sintetica è difficile da fermare vicino alla cassaforte. Mappa: Hot Potato."
+    },
+    {
+     "id": 48000005,
+     "note": "Lo stordimento dell'orso ferma chi porta la palla, e lui stesso fa da muro davanti alla porta."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000086,
+     "note": "Si infila tra le linee mentre l'orso tiene impegnati i nemici davanti."
+    },
+    {
+     "id": 16000040,
+     "note": "Il suo fuoco chiude le vie di fuga di chi scappa dall'orso."
+    },
+    {
+     "id": 16000061,
+     "note": "Scudi e cure su Nita mentre l'orso fa il lavoro sporco."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000061,
+      "note": "Ha poca salute e l'orso lo raggiunge facilmente."
+     },
+     {
+      "id": 16000051,
+      "note": "Tank lento che deve avvicinarsi: tra onda e orso arriva stremato."
+     },
+     {
+      "id": 16000090,
+      "note": "Lo stordimento dell'orso ferma la sua carica."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000086,
+      "note": "Gioca dietro le linee e colpisce Nita quando l'orso è lontano."
+     },
+     {
+      "id": 16000040,
+      "note": "Il fuoco a terra la tiene lontana e scioglie l'orso."
+     },
+     {
+      "id": 16000109,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000009,
+      "note": "Lancia oltre i muri e colpisce Nita senza farsi raggiungere."
+     }
+    ]
+   }
+  },
+  "16000007": {
+   "overview": {
+    "role": "Controllo con torretta",
+    "difficulty": 1,
+    "tier": "B",
+    "tierNote": "Solida ma non dominante in Ranked (circa 50% di vittorie). La torretta è stata rafforzata a settembre.",
+    "summary": "Jessie spara una sfera che rimbalza tra i nemici vicini e, con la super, piazza una torretta che spara da sola. Il suo gioco è proteggere un punto: torretta ben piazzata, Jessie poco dietro a colpire chi si avvicina.",
+    "tips": [
+     "La sfera rimbalza solo tra nemici vicini: usala contro gruppi o contro un nemico accanto a un evocato.",
+     "Piazza la torretta dietro un muro, non in campo aperto: dura molto di più.",
+     "Con Ricarica la sfera di Jessie ripara la torretta: se la torretta muore spesso, è la Star Power giusta.",
+     "La torretta attira il fuoco: approfittane per colpire chi le sta sparando.",
+     "In Rapina la torretta vicino alla cassaforte nemica fa danni costanti anche se tu sei lontana."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Torretta aggressiva",
+     "when": "La scelta più usata in Ranked, ottima in Rapina.",
+     "gadget": {
+      "name": "Recoil Spring",
+      "note": "Per qualche secondo la torretta spara al doppio della velocità: la piazzi vicino alla cassaforte o in zona e fa danni enormi tutti insieme.",
+      "alt": {
+       "name": "Spark Plug",
+       "note": "Contro chi si tuffa su di te e in Footbrawl: la torretta lancia un'onda che rallenta i nemici vicini."
+      }
+     },
+     "starPower": {
+      "name": "Shocky",
+      "note": "I colpi della torretta rimbalzano anche loro tra i nemici vicini: più danni ai gruppi e a chi difende un punto.",
+      "alt": {
+       "name": "Energize",
+       "note": "Se la torretta muore troppo presto: la sfera di Jessie la ripara."
+      }
+     },
+     "gears": [
+      {
+       "gear": "petPower",
+       "note": "La torretta fa un quarto di danni in più: è la sua fonte principale di danni, quindi rende molto."
+      },
+      {
+       "gear": "shield",
+       "note": "Ti tiene in piedi mentre piazzi la torretta in mezzo allo scontro."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "damage",
+       "note": "Se non hai ancora l'ingranaggio per l'alleato."
+      }
+     ]
+    },
+    {
+     "title": "Contro chi si tuffa",
+     "when": "Squadre di assassini o tank che vogliono saltarti addosso.",
+     "gadget": {
+      "name": "Spark Plug",
+      "note": "La torretta rallenta chi le arriva vicino: tu hai il tempo di colpire e di allontanarti.",
+      "alt": {
+       "name": "Recoil Spring",
+       "note": "Se la squadra avversaria è soprattutto a distanza."
+      }
+     },
+     "starPower": {
+      "name": "Energize",
+      "note": "Ripari la torretta durante lo scontro e la tieni in campo più a lungo.",
+      "alt": {
+       "name": "Shocky",
+       "note": "Se vuoi più danni ai gruppi."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "La prima difesa contro chi ti arriva addosso."
+      },
+      {
+       "gear": "petPower",
+       "note": "Torretta più forte anche in difesa."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000002,
+     "note": "La sua modalità migliore: torretta vicino alla cassaforte e danni costanti. Mappe: Safe Zone, Hot Potato."
+    },
+    {
+     "id": 48000017,
+     "note": "La torretta occupa la zona e costringe i nemici ad abbatterla prima di entrare. Mappe: Open Business, In the Liminal."
+    },
+    {
+     "id": 48000005,
+     "note": "Con Candela di accensione rallenta chi porta la palla vicino alla porta."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000108,
+     "note": "Tiene lontani i nemici dalla torretta mentre Jessie colpisce."
+    },
+    {
+     "id": 16000086,
+     "note": "Va in profondità mentre torretta e Jessie tengono la linea."
+    },
+    {
+     "id": 16000107,
+     "note": "Combinazione che nei dati vince spesso: copre le corsie dove la torretta non arriva."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000016,
+      "note": "Anche lei vive di torretta, ma la sfera che rimbalza punisce lei e il suo alleato insieme."
+     },
+     {
+      "id": 16000074,
+      "note": "Gli evocati e i bersagli vicini fanno rimbalzare la sfera."
+     },
+     {
+      "id": 16000017,
+      "note": "Le sue ombre sono bersagli perfetti per i rimbalzi."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000086,
+      "note": "Ti raggiunge passando oltre la torretta."
+     },
+     {
+      "id": 16000108,
+      "note": "Ti tiene a distanza e abbatte la torretta da lontano."
+     },
+     {
+      "id": 16000075,
+      "note": "Salta sopra i muri e colpisce Jessie senza passare dalla torretta."
+     }
+    ]
+   }
+  },
+  "16000003": {
+   "overview": {
+    "role": "Tiratore a lunga distanza",
+    "difficulty": 2,
+    "tier": "A",
+    "tierNote": "Il brawler più scelto in Ranked e con risultati buoni (circa 50% di vittorie), dopo la rielaborazione di giugno.",
+    "summary": "Brock spara razzi a lunga distanza che esplodono all'impatto e distruggono i muri con la super. Dopo la rielaborazione di giugno la super lo segue mentre si muove: si gioca da lontano, colpendo chi si espone e aprendo le coperture nemiche.",
+    "tips": [
+     "I razzi sono lenti: mira dove il nemico sta andando, non dove si trova.",
+     "La super distrugge i muri: usala per togliere le coperture ai tiratori nemici, non solo per fare danni.",
+     "Supermiscela per razzi spara un razzo potentissimo senza consumare munizioni, ma non carica la super: tienilo per finire un nemico.",
+     "Lacci esplosivi ti fanno saltare nella direzione in cui ti muovi: è la tua unica fuga, non sprecarla.",
+     "Resta lontano e dietro i ripari: da vicino Brock perde quasi tutti gli scontri."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Danni",
+     "when": "La scelta standard in Eliminazione e Taglia.",
+     "gadget": {
+      "name": "Rocket Fuel",
+      "note": "Un razzo enorme che non consuma munizioni: lo usi per chiudere un nemico che hai appena ferito, senza restare scarico.",
+      "alt": {
+       "name": "Rocket Laces",
+       "note": "Contro squadre di assassini o tank: un salto per scappare quando ti arrivano addosso."
+      }
+     },
+     "starPower": {
+      "name": "Rocket No. 4",
+      "note": "Un razzo in più nel caricatore: più colpi prima di dover ricaricare negli scambi a distanza.",
+      "alt": {
+       "name": "More Rockets",
+       "note": "La Star Power che aggiunge razzi alla super: più danni ad area quando apri le coperture."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Ti salva dal primo colpo di un tiratore avversario."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei ferito, negli scambi lunghi a distanza."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "vision",
+       "note": "Sulle mappe con molti cespugli: vedi chi si avvicina."
+      }
+     ]
+    },
+    {
+     "title": "Contro chi si tuffa",
+     "when": "Quando gli avversari hanno assassini o tank che saltano.",
+     "gadget": {
+      "name": "Rocket Laces",
+      "note": "Il salto ti porta via proprio quando l'assassino arriva: poi lo punisci da lontano.",
+      "alt": {
+       "name": "Rocket Fuel",
+       "note": "Se gli avversari giocano tutti a distanza."
+      }
+     },
+     "starPower": {
+      "name": "Rocket No. 4",
+      "note": "Più razzi per fermare chi si avvicina prima che arrivi.",
+      "alt": {
+       "name": "More Rockets",
+       "note": "Se preferisci più danni dalla super."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Il margine che serve per sopravvivere al primo attacco."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Il salto torna pronto più in fretta."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000020,
+     "note": "La sua modalità migliore: un solo round e nessuna rinascita, quindi abbattere le coperture con la super decide la partita. Mappe: Belle's Rock, Out in the Open."
+    },
+    {
+     "id": 48000003,
+     "note": "Danni da lontano e nessun bisogno di avvicinarsi. Mappe: Layer Cake, Shooting Star."
+    },
+    {
+     "id": 48000002,
+     "note": "Colpisce la cassaforte da lontano dopo aver aperto i muri."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000108,
+     "note": "Insieme tengono i nemici lontani e li colpiscono da distanza sicura."
+    },
+    {
+     "id": 16000037,
+     "note": "Le sue siepi chiudono le vie di fuga, i razzi di Brock fanno il resto."
+    },
+    {
+     "id": 16000045,
+     "note": "Arriva veloce su chi Brock ha ferito e lo finisce."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000102,
+      "note": "Gioca a distanza ma con meno portata: perde gli scambi."
+     },
+     {
+      "id": 16000050,
+      "note": "Deve avvicinarsi per fare danni, e i razzi lo puniscono prima."
+     },
+     {
+      "id": 16000007,
+      "note": "La torretta è un bersaglio facile e la sua portata è minore."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000106,
+      "note": "Tra i suoi matchup peggiori nei dati: arriva addosso prima che tu possa colpirlo."
+     },
+     {
+      "id": 16000080,
+      "note": "Tank che ti raggiunge e da vicino non hai scampo."
+     },
+     {
+      "id": 16000026,
+      "note": "Corre veloce e ti respinge: Brock senza distanza perde."
+     }
+    ]
+   }
+  },
+  "16000004": {
+   "overview": {
+    "role": "Tiratore con rimbalzi",
+    "difficulty": 3,
+    "tier": "A",
+    "tierNote": "Forte in Ranked (circa 51% di vittorie) dopo la rielaborazione di giugno dei gadget.",
+    "summary": "Stecca spara raffiche di proiettili che rimbalzano sui muri: chi conosce gli angoli colpisce nemici nascosti senza esporsi. Il suo punto di forza sono le mappe con tanti muri; in campo aperto è più debole.",
+    "tips": [
+     "Impara gli angoli: un colpo che rimbalza su un muro arriva dove il nemico si sente al sicuro.",
+     "I proiettili si allungano dopo un rimbalzo: sparare contro un muro vicino a te non è uno spreco.",
+     "La super ha bisogno di tanti colpi per caricarsi: non sparare a vuoto, colpisci gruppi e corridoi.",
+     "Pistola multiproiettile è un riparo che spara quando lo distruggono: piazzala dove i nemici devono passare.",
+     "In campo aperto sei un tiratore normale con poca salute: scegli mappe con muri."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Controllo",
+     "when": "La scelta più comune in Footbrawl e Arraffagemme.",
+     "gadget": {
+      "name": "Multiball Launcher",
+      "note": "Piazzi un distributore che fa da riparo e, quando i nemici lo distruggono, spara proiettili tutt'intorno: copertura e trappola nello stesso momento.",
+      "alt": {
+       "name": "Multiball",
+       "note": "Quando vuoi più danni a sorpresa: un colpo grosso che si divide in tre."
+      }
+     },
+     "starPower": {
+      "name": "Super Bouncy",
+      "note": "I proiettili diventano più forti dopo il primo rimbalzo: sulle mappe con muri fai molti più danni.",
+      "alt": {
+       "name": "Robo Retreat",
+       "note": "Se ti attaccano spesso da vicino: con poca vita corri più veloce."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Stecca ha poca salute: lo scudo ti fa sopravvivere al primo scontro."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei ferito, utili negli scambi a rimbalzo."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "vision",
+       "note": "Sulle mappe con cespugli: vedi chi si nasconde dietro gli angoli."
+      }
+     ]
+    },
+    {
+     "title": "Raffica",
+     "when": "Quando gli avversari giocano in gruppo o vuoi più pressione.",
+     "gadget": {
+      "name": "Multiball",
+      "note": "Il colpo grande si divide in tre proiettili che rimbalzano: tanti danni in un corridoio.",
+      "alt": {
+       "name": "Multiball Launcher",
+       "note": "Se ti serve un riparo in campo aperto."
+      }
+     },
+     "starPower": {
+      "name": "Robo Retreat",
+      "note": "Con poca vita ti muovi molto più in fretta e puoi scappare dagli assassini.",
+      "alt": {
+       "name": "Super Bouncy",
+       "note": "Se la mappa ha molti muri e nessuno ti mette pressione."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Ti tiene in vita mentre cerchi l'angolo giusto."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni negli scontri prolungati."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000005,
+     "note": "Tanti muri vicino alle porte: i rimbalzi colpiscono chi difende. Mappe: Sneaky Fields, Center Stage."
+    },
+    {
+     "id": 48000000,
+     "note": "Corridoi stretti dove i rimbalzi colpiscono chi raccoglie le gemme. Mappa migliore: Hard Rock Mine."
+    },
+    {
+     "id": 48000020,
+     "note": "Colpisce dietro le coperture senza esporsi. Mappa: Belle's Rock."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000086,
+     "note": "Mette pressione da vicino mentre Stecca colpisce da dietro i muri."
+    },
+    {
+     "id": 16000108,
+     "note": "Insieme tengono il controllo dello spazio a distanza."
+    },
+    {
+     "id": 16000096,
+     "note": "Tank che va avanti e assorbe i colpi mentre tu rimbalzi i proiettili."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000071,
+      "note": "Deve avvicinarsi, e i rimbalzi lo colpiscono anche dietro i muri."
+     },
+     {
+      "id": 16000066,
+      "note": "I rimbalzi lo puniscono quando si divide."
+     },
+     {
+      "id": 16000083,
+      "note": "Fatica a caricarsi se lo colpisci da dietro le coperture."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000037,
+      "note": "Lancia oltre i muri e ti toglie gli angoli con le siepi."
+     },
+     {
+      "id": 16000100,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000006,
+      "note": "Ti colpisce oltre i muri senza esporsi ai rimbalzi."
+     }
+    ]
+   }
+  },
+  "16000006": {
+   "overview": {
+    "role": "Lanciatore",
+    "difficulty": 2,
+    "tier": "B",
+    "tierNote": "Nella media in Ranked (circa 49% di vittorie). Rende molto in Footbrawl e Eliminazione, meno in Arraffagemme.",
+    "summary": "Bombardino lancia bottiglie oltre i muri che lasciano una pozza dannosa a terra. Il suo gioco è stare dietro le coperture e costringere i nemici a spostarsi: chi resta nella pozza perde vita, chi scappa si espone ai compagni.",
+    "tips": [
+     "Non mirare al nemico, mira dove dovrà andare: la pozza resta a terra e lo colpisce mentre si muove.",
+     "Lancia sempre oltre i muri: è il tuo vantaggio, i tiratori non possono risponderti.",
+     "La super copre una zona enorme: usala per chiudere una porta, un passaggio o il punto della Zona calda.",
+     "Tonico curativo cura te e i compagni vicini: tienilo per quando lo scontro è al massimo.",
+     "Da vicino sei debolissimo: se un assassino ti salta addosso, il tuo compito è scappare."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Supporto",
+     "when": "La scelta più usata in Ranked.",
+     "gadget": {
+      "name": "Herbal Tonic",
+      "note": "Lancia una bottiglia che cura te e i compagni nell'area: nelle squadre che combattono vicine fa la differenza.",
+      "alt": {
+       "name": "Sticky Syrup Mixer",
+       "note": "Contro chi si avvicina: una pozza che rallenta molto chi ci passa sopra."
+      }
+     },
+     "starPower": {
+      "name": "Medical Use",
+      "note": "Ogni attacco ti cura un po': resti in campo più a lungo senza tornare indietro.",
+      "alt": {
+       "name": "Extra Noxious",
+       "note": "Se la squadra ha già chi cura: più danni da tutte le pozze."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Bombardino ha poca salute: lo scudo gli permette di sopravvivere a un assalto."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei ferito."
+      }
+     ]
+    },
+    {
+     "title": "Controllo",
+     "when": "Contro squadre di assassini o in Footbrawl.",
+     "gadget": {
+      "name": "Sticky Syrup Mixer",
+      "note": "La pozza rallentante ferma chi ti si avvicina e chi porta la palla.",
+      "alt": {
+       "name": "Herbal Tonic",
+       "note": "Se ti serve più sostegno per la squadra."
+      }
+     },
+     "starPower": {
+      "name": "Extra Noxious",
+      "note": "Le pozze fanno più danni: chi resta rallentato nella pozza perde molta vita.",
+      "alt": {
+       "name": "Medical Use",
+       "note": "Se nessuno nella squadra cura."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "La difesa contro chi riesce comunque ad arrivarti addosso."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni negli scontri difficili."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000005,
+     "note": "La sua modalità migliore: le pozze bloccano la porta e il passaggio della palla. Mappe: Triple Dribble, Pinball Dreams."
+    },
+    {
+     "id": 48000020,
+     "note": "Colpisce chi si nasconde dietro i muri e costringe i nemici a uscire. Mappa: Out in the Open."
+    },
+    {
+     "id": 48000017,
+     "note": "Le pozze sulla zona rendono difficile restarci."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000043,
+     "note": "Le pozze spingono i nemici fuori dai ripari, Edgar salta su chi resta indebolito."
+    },
+    {
+     "id": 16000026,
+     "note": "Respinge chi prova ad arrivare su Bombardino."
+    },
+    {
+     "id": 16000085,
+     "note": "Entra sui bersagli già feriti dalle pozze."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000051,
+      "note": "Tank lento che deve attraversare le pozze per arrivarti."
+     },
+     {
+      "id": 16000074,
+      "note": "Le pozze la colpiscono mentre prova ad avvicinarsi."
+     },
+     {
+      "id": 16000027,
+      "note": "Lento e grosso: difficile per lui uscire dalle pozze."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000011,
+      "note": "Salta addosso velocemente e ti abbatte prima che tu possa fermarlo."
+     },
+     {
+      "id": 16000094,
+      "note": "Assassina veloce: arriva prima che le pozze facciano effetto."
+     },
+     {
+      "id": 16000075,
+      "note": "Salta i muri e ti raggiunge dove ti senti al sicuro."
+     }
+    ]
+   }
+  },
+  "16000005": {
+   "overview": {
+    "role": "Danni ad area",
+    "difficulty": 2,
+    "tier": "C",
+    "tierNote": "Sotto la media in Ranked (circa 48% di vittorie) dopo i cambi di fine 2025, ma ancora utile su mappe chiuse.",
+    "summary": "Spike lancia un cactus che esplode in spine in tutte le direzioni: colpisce bene a media distanza e soprattutto contro chi è vicino all'esplosione. La super crea un'area di spine che rallenta e fa danni: ottima per chiudere passaggi e zone.",
+    "tips": [
+     "Il cactus esplode quando colpisce o arriva in fondo: tira oltre il nemico per prenderlo con le spine.",
+     "Le spine colpiscono meglio da vicino: i nemici vicini all'esplosione prendono quasi tutto.",
+     "La super rallenta: usala per impedire la fuga a chi è ferito o per difendere un punto.",
+     "Cactus salvavita è un riparo che cura: piazzalo dove ti servono copertura e vita insieme.",
+     "Hai poca salute: non andare in prima linea, colpisci da dietro i compagni."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di base in Ranked.",
+     "gadget": {
+      "name": "Life Plant",
+      "note": "Un cactus che fa da muro e cura chi gli sta vicino quando viene distrutto: copertura e cure nello stesso momento.",
+      "alt": {
+       "name": "Popping Pincushion",
+       "note": "Quando vuoi più danni: una fila di spine nella direzione in cui miri."
+      }
+     },
+     "starPower": {
+      "name": "Curveball",
+      "note": "Le spine curvano: colpisci anche chi si muove di lato e chi è dietro i ripari.",
+      "alt": {
+       "name": "Fertilize",
+       "note": "Se resti spesso dentro la tua super: ti cura mentre ci stai."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Spike ha poca salute: lo scudo è la difesa più semplice."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei ferito."
+      }
+     ]
+    },
+    {
+     "title": "Zona",
+     "when": "Zona calda e Footbrawl, dove i nemici devono restare in un punto.",
+     "gadget": {
+      "name": "Popping Pincushion",
+      "note": "Una fila di spine che colpisce chi è nella zona.",
+      "alt": {
+       "name": "Life Plant",
+       "note": "Se ti serve un riparo nel punto conteso."
+      }
+     },
+     "starPower": {
+      "name": "Fertilize",
+      "note": "Stando nella tua super ti curi: puoi difendere la zona più a lungo.",
+      "alt": {
+       "name": "Curveball",
+       "note": "Se preferisci più colpi a segno."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Resistere nella zona è tutto."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Più gadget nel corso della partita."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000020,
+     "note": "Colpisce chi si nasconde dietro i muri con l'esplosione del cactus. Mappa: Middle Ground."
+    },
+    {
+     "id": 48000005,
+     "note": "La super davanti alla porta rallenta chi porta la palla. Mappa: Sneaky Fields."
+    },
+    {
+     "id": 48000017,
+     "note": "La super sulla zona rende difficile restarci."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000060,
+     "note": "Va avanti e tiene impegnati i nemici mentre Spike colpisce da dietro."
+    },
+    {
+     "id": 16000087,
+     "note": "Copre altre zone mentre le spine controllano i passaggi."
+    },
+    {
+     "id": 16000075,
+     "note": "Arriva veloce su chi le spine hanno ferito e rallentato."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000024,
+      "note": "Tank che deve avvicinarsi, e le spine colpiscono forte da vicino."
+     },
+     {
+      "id": 16000034,
+      "note": "Lenta e costretta a entrare nella super."
+     },
+     {
+      "id": 16000096,
+      "note": "Grosso e facile da colpire con tutte le spine."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000108,
+      "note": "Ti tiene lontano e ti colpisce prima che tu sia in portata."
+     },
+     {
+      "id": 16000048,
+      "note": "Lancia oltre i muri da più lontano."
+     },
+     {
+      "id": 16000075,
+      "note": "Salta addosso e Spike ha poca vita."
+     }
+    ]
+   }
+  },
+  "16000012": {
+   "overview": {
+    "role": "Assassino veloce",
+    "difficulty": 2,
+    "tier": "D",
+    "tierNote": "Tra i più deboli in Ranked (circa 44% di vittorie): rende meglio in Sopravvivenza e Arraffagemme.",
+    "summary": "Corvo è velocissimo e lancia pugnali avvelenati: il veleno fa danni nel tempo e dimezza le cure di chi lo subisce. Il suo gioco è colpire tutti, tenere avvelenati i nemici e saltare con la super su chi è rimasto con poca vita.",
+    "tips": [
+     "Il veleno dimezza le cure: colpisci per primi i brawler che si curano o che vengono curati.",
+     "Non cercare duelli lunghi: hai poca vita. Colpisci, allontanati, torna.",
+     "La super è sia fuga sia attacco: tienila per scappare se non sei sicuro di finire il bersaglio.",
+     "Usa la velocità per stare sempre dove i nemici non guardano.",
+     "In Sopravvivenza il veleno fa sapere che il nemico è ferito: inseguilo solo se sei sicuro."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di base in Ranked.",
+     "gadget": {
+      "name": "Slowing Toxin",
+      "note": "Un pugnale mirato che rallenta chi colpisce: lo usi per non far scappare il bersaglio prima di saltargli addosso.",
+      "alt": {
+       "name": "Instapoison",
+       "note": "Per finire chi è già avvelenato e prendere uno scudo per un attimo."
+      }
+     },
+     "starPower": {
+      "name": "Carrion Crow",
+      "note": "Più danni a chi ha meno di metà vita: rende più facile finire i nemici feriti.",
+      "alt": {
+       "name": "Extra Toxic",
+       "note": "Se combatti spesso contro tank: chi è avvelenato fa meno danni."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Corvo ha poca vita: lo scudo ti fa sopravvivere a un ingaggio."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei ferito."
+      }
+     ]
+    },
+    {
+     "title": "Veleno",
+     "when": "Quando gli avversari si curano o fanno molti danni.",
+     "gadget": {
+      "name": "Instapoison",
+      "note": "Il veleno esplode subito su tutti i nemici avvelenati e ti dà uno scudo: ottimo per finire un gruppo.",
+      "alt": {
+       "name": "Slowing Toxin",
+       "note": "Se ti serve rallentare un bersaglio."
+      }
+     },
+     "starPower": {
+      "name": "Extra Toxic",
+      "note": "I nemici avvelenati fanno meno danni: più resistenza in mischia.",
+      "alt": {
+       "name": "Carrion Crow",
+       "note": "Se preferisci finire i nemici feriti."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "La difesa che serve per sopravvivere."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni negli scontri decisivi."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000000,
+     "note": "La velocità e il veleno fanno pressione su chi porta le gemme. Mappe: Double Swoosh, Undermine."
+    },
+    {
+     "id": 48000009,
+     "note": "Velocità e veleno decidono gli scontri brevi."
+    },
+    {
+     "id": 48000005,
+     "note": "Arriva veloce sulla palla, ma non ha la salute per tenere a lungo."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000060,
+     "note": "Va avanti e attira i colpi mentre Corvo avvelena."
+    },
+    {
+     "id": 16000024,
+     "note": "Tank che tiene la prima linea mentre Corvo gira intorno."
+    },
+    {
+     "id": 16000066,
+     "note": "Colpisce da lontano chi Corvo ha già indebolito."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000024,
+      "note": "Il veleno dimezza lo scudo e le cure: perde il suo vantaggio."
+     },
+     {
+      "id": 16000096,
+      "note": "Tank lento che non riesce a raggiungerti."
+     },
+     {
+      "id": 16000002,
+      "note": "Lento e senza portata: Corvo lo avvelena senza farsi prendere."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000108,
+      "note": "Ti tiene lontano e ti colpisce da distanza."
+     },
+     {
+      "id": 16000109,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000079,
+      "note": "Ti colpisce da lontano e non riesci a raggiungerlo."
+     }
+    ]
+   }
+  },
+  "16000023": {
+   "overview": {
+    "role": "Assassino invisibile",
+    "difficulty": 2,
+    "tier": "C",
+    "tierNote": "Sotto la media in Ranked (circa 47% di vittorie), anche dopo il rafforzamento del clone a settembre.",
+    "summary": "Leon colpisce forte da vicino e con la super diventa invisibile per qualche secondo: arriva alle spalle dei nemici e li finisce prima che reagiscano. Ha poca vita, quindi l'attacco deve essere preciso e veloce.",
+    "tips": [
+     "I colpi fanno più danni da vicino: avvicinati con l'invisibilità prima di attaccare.",
+     "Non usare la super per avanzare a caso: scegli un bersaglio ferito o isolato.",
+     "Dopo l'attacco ti vedono: tieni sempre una via di fuga.",
+     "Lecca-lecca tattico crea un'area dove tutti sono invisibili: utile per te e per la squadra.",
+     "Contro chi colpisce ad area l'invisibilità serve poco: scegli bene il momento."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di base in Taglia e Eliminazione.",
+     "gadget": {
+      "name": "Lollipop Drop",
+      "note": "Crei una zona di invisibilità: tu e i compagni ci passate dentro senza essere visti.",
+      "alt": {
+       "name": "Clone Projector",
+       "note": "Un clone che distrae gli avversari, e dopo il rafforzamento colpisce anche forte da lontano."
+      }
+     },
+     "starPower": {
+      "name": "Smoke Trails",
+      "note": "Durante l'invisibilità corri più veloce: arrivi sul bersaglio prima che il nemico se ne accorga.",
+      "alt": {
+       "name": "Invisiheal",
+       "note": "Se ti servono più cure: ti curi mentre sei invisibile."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Leon ha poca vita: lo scudo ti fa sopravvivere all'arrivo."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei ferito."
+      }
+     ]
+    },
+    {
+     "title": "Clone",
+     "when": "Quando vuoi distrarre gli avversari o avere più danni a distanza.",
+     "gadget": {
+      "name": "Clone Projector",
+      "note": "Il clone distrae e colpisce: i nemici non sanno chi seguire.",
+      "alt": {
+       "name": "Lollipop Drop",
+       "note": "Se ti serve l'invisibilità per tutta la squadra."
+      }
+     },
+     "starPower": {
+      "name": "Invisiheal",
+      "note": "Ti curi mentre sei invisibile: torni in combattimento più in fretta.",
+      "alt": {
+       "name": "Smoke Trails",
+       "note": "Se preferisci arrivare veloce."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni negli scontri decisivi."
+      },
+      {
+       "gear": "health",
+       "note": "Recuperi vita più in fretta tra un attacco e l'altro."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000003,
+     "note": "Finisce i nemici isolati e prende le stelle. Mappe: Hideout, Shooting Star."
+    },
+    {
+     "id": 48000020,
+     "note": "Arriva invisibile sui tiratori nascosti. Mappa: Belle's Rock."
+    },
+    {
+     "id": 48000009,
+     "note": "L'invisibilità decide gli scontri a sorpresa."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000066,
+     "note": "Colpisce da lontano mentre Leon si infiltra."
+    },
+    {
+     "id": 16000053,
+     "note": "Il suo doppio attira i colpi, e Leon arriva da un'altra parte."
+    },
+    {
+     "id": 16000106,
+     "note": "Insieme mettono pressione da due lati."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000006,
+      "note": "Lanciatore con poca vita: lo raggiungi invisibile e lo finisci."
+     },
+     {
+      "id": 16000024,
+      "note": "Tank che non riesce a vederti arrivare."
+     },
+     {
+      "id": 16000103,
+      "note": "Debole da vicino, dove Leon colpisce più forte."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000104,
+      "note": "Tra i suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000071,
+      "note": "Ti colpisce forte da vicino e resiste ai tuoi attacchi."
+     },
+     {
+      "id": 16000108,
+      "note": "Ti tiene lontano e ti colpisce prima che tu arrivi."
+     }
+    ]
+   }
+  },
+  "16000011": {
+   "overview": {
+    "role": "Assassino a scatti",
+    "difficulty": 3,
+    "tier": "B",
+    "tierNote": "Nella media in Ranked (circa 49% di vittorie). Difficile, ma forte in mani esperte.",
+    "summary": "Mortis attacca con uno scatto che lo porta addosso al nemico: ogni colpo è anche un movimento. La super lancia pipistrelli che fanno danni e lo curano. Il suo gioco è entrare sui bersagli fragili, colpire e uscire prima che lo circondino.",
+    "tips": [
+     "Lo scatto è anche il tuo attacco: non sprecarlo per muoverti, rischi di restare scarico vicino al nemico.",
+     "Scegli bersagli con poca vita: tiratori e lanciatori sono le tue prede.",
+     "La super cura: usala quando sei ferito e colpisci più nemici insieme.",
+     "Contro tank e brawler che sbalzano devi essere molto paziente.",
+     "Torna sempre indietro dopo aver colpito: in mezzo a tre nemici muori in fretta."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di base in Ranked.",
+     "gadget": {
+      "name": "Combo Spinner",
+      "note": "Una pala che gira e colpisce tutti intorno, da mirare: ottima per finire chi è ferito accanto a te.",
+      "alt": {
+       "name": "Creature Of The Night",
+       "note": "I pipistrelli viaggiano e ti rendono immune: utile per fuggire o raggiungere."
+      }
+     },
+     "starPower": {
+      "name": "Coiled Snake",
+      "note": "Lo scatto si allunga se aspetti: entri da più lontano e colpisci di sorpresa.",
+      "alt": {
+       "name": "Creepy Harvest",
+       "note": "Ti cura quando abbatti un nemico: ottimo in Sopravvivenza."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei ferito, e Mortis lo è spesso."
+      },
+      {
+       "gear": "shield",
+       "note": "Ti fa sopravvivere all'entrata."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "gadgetCooldown",
+       "note": "Più gadget nel corso della partita."
+      }
+     ]
+    },
+    {
+     "title": "Sopravvivenza",
+     "when": "Sopravvivenza, dove si combatte uno contro uno.",
+     "gadget": {
+      "name": "Creature Of The Night",
+      "note": "Pipistrelli che viaggiano e ti rendono immune per un attimo.",
+      "alt": {
+       "name": "Combo Spinner",
+       "note": "Se vuoi più danni intorno a te."
+      }
+     },
+     "starPower": {
+      "name": "Creepy Harvest",
+      "note": "Ti curi a ogni nemico abbattuto: resti in gioco a lungo.",
+      "alt": {
+       "name": "Coiled Snake",
+       "note": "Se ti serve entrare da più lontano."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "La difesa che serve negli scontri a sorpresa."
+      },
+      {
+       "gear": "health",
+       "note": "Recuperi vita tra uno scontro e l'altro."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000003,
+     "note": "Finisce i tiratori isolati. Mappe: Hideout, Dry Season."
+    },
+    {
+     "id": 48000000,
+     "note": "Entra su chi porta le gemme. Mappe: Hard Rock Mine, Gem Fort."
+    },
+    {
+     "id": 48000017,
+     "note": "Scatta dentro e fuori dalla zona."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000040,
+     "note": "Il fuoco tiene i nemici fermi, Mortis entra sui feriti."
+    },
+    {
+     "id": 16000106,
+     "note": "Insieme mettono pressione su più bersagli."
+    },
+    {
+     "id": 16000017,
+     "note": "La sua super raggruppa i nemici: Mortis li colpisce tutti insieme."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000009,
+      "note": "Lanciatore con poca vita: lo raggiungi e lo finisci in fretta."
+     },
+     {
+      "id": 16000006,
+      "note": "Fragile e senza fughe: una preda facile."
+     },
+     {
+      "id": 16000048,
+      "note": "Lancia da lontano ma da vicino non ha difese."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000071,
+      "note": "Ti colpisce forte da vicino e resiste."
+     },
+     {
+      "id": 16000106,
+      "note": "Tra i suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000096,
+      "note": "Tank che ti respinge quando arrivi."
+     }
+    ]
+   }
+  },
+  "16000017": {
+   "overview": {
+    "role": "Controllo con evocati",
+    "difficulty": 2,
+    "tier": "A",
+    "tierNote": "Tra le più forti in Ranked (circa 52% di vittorie), dopo il rafforzamento delle ombre di settembre.",
+    "summary": "Tara lancia tre carte a ventaglio che attraversano i nemici, e la sua super attira tutti verso un punto: il momento perfetto per i compagni. I suoi gadget e Star Power evocano ombre che curano o combattono al suo fianco.",
+    "tips": [
+     "La super attira i nemici al centro: usala quando un compagno con danni ad area è pronto.",
+     "Le carte attraversano: colpisci più nemici in fila.",
+     "Evoca-ombre crea alleati che distraggono e combattono: piazzali dove serve pressione.",
+     "Non sprecare la super su un nemico solo: tienila per raggruppare.",
+     "Tara ha vita media: non restare troppo esposta."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Ombre curative",
+     "when": "La scelta più usata in Ranked.",
+     "gadget": {
+      "name": "Support From Beyond",
+      "note": "Evoca ombre che combattono al tuo fianco: più pressione e più bersagli per gli avversari.",
+      "alt": {
+       "name": "Psychic Enhancer",
+       "note": "Contro Leon o mappe con tanti cespugli: vedi chi si nasconde."
+      }
+     },
+     "starPower": {
+      "name": "Healing Shade",
+      "note": "Dopo la super appare un'ombra che cura tutta la squadra vicina.",
+      "alt": {
+       "name": "Black Portal",
+       "note": "Se preferisci più danni: dopo la super appare un'ombra che combatte."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Ti tiene in piedi mentre cerchi il momento per la super."
+      },
+      {
+       "gear": "petPower",
+       "note": "Le ombre fanno più danni e curano di più."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "damage",
+       "note": "Se non hai ancora l'ingranaggio per gli alleati."
+      }
+     ]
+    },
+    {
+     "title": "Ombre aggressive",
+     "when": "Quando vuoi più danni e pressione.",
+     "gadget": {
+      "name": "Support From Beyond",
+      "note": "Le ombre combattono con te.",
+      "alt": {
+       "name": "Psychic Enhancer",
+       "note": "Se servono informazioni sui cespugli."
+      }
+     },
+     "starPower": {
+      "name": "Black Portal",
+      "note": "L'ombra che appare dopo la super fa molti danni.",
+      "alt": {
+       "name": "Healing Shade",
+       "note": "Se la squadra ha bisogno di cure."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Ti fa sopravvivere negli scontri."
+      },
+      {
+       "gear": "petPower",
+       "note": "Ombre più forti."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000000,
+     "note": "La super raggruppa i nemici attorno al centro delle gemme. Mappe: Gem Fort, Double Swoosh."
+    },
+    {
+     "id": 48000005,
+     "note": "La super attira il portatore di palla lontano dalla porta."
+    },
+    {
+     "id": 48000017,
+     "note": "Raggruppa i nemici nella zona per i compagni."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000108,
+     "note": "Colpisce il gruppo che Tara ha appena raggruppato."
+    },
+    {
+     "id": 16000086,
+     "note": "Entra sui nemici raggruppati e li finisce."
+    },
+    {
+     "id": 16000002,
+     "note": "Da vicino colpisce forte chi Tara ha attirato."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000023,
+      "note": "Con Amplificatore psichico non può più nascondersi."
+     },
+     {
+      "id": 16000058,
+      "note": "Le carte la colpiscono anche mentre si muove."
+     },
+     {
+      "id": 16000000,
+      "note": "La super la attira dove non può colpire tutti."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000040,
+      "note": "Il fuoco la tiene lontana e le ombre muoiono in fretta."
+     },
+     {
+      "id": 16000086,
+      "note": "Entra veloce e colpisce Tara quando è sola."
+     },
+     {
+      "id": 16000037,
+      "note": "Lancia oltre i muri e Tara fatica a raggiungerlo."
+     }
+    ]
+   }
+  },
+  "16000014": {
+   "overview": {
+    "role": "Controllo con trappole",
+    "difficulty": 1,
+    "tier": "A",
+    "tierNote": "Tra i più forti in Ranked (circa 52% di vittorie). Facile da imparare.",
+    "summary": "Bo spara tre frecce esplosive a ventaglio e con la super piazza mine nascoste che esplodono quando un nemico ci passa sopra. Il suo gioco è controllare lo spazio: mine sui passaggi e frecce su chi cerca di evitarle.",
+    "tips": [
+     "Le mine sono nascoste: piazzale dove i nemici devono per forza passare.",
+     "Le frecce si allargano a ventaglio: colpisci meglio a media distanza.",
+     "Supertotem ricarica la super a te e ai compagni: piazzalo dove la squadra combatte.",
+     "Con Occhio d'aquila vedi i nemici nei cespugli: utile in Sopravvivenza.",
+     "Non restare in campo aperto contro tiratori a lunga distanza."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di base in Ranked.",
+     "gadget": {
+      "name": "Super Totem",
+      "note": "Un totem che si lancia e ricarica la super a te e ai compagni vicini: più mine, più spesso.",
+      "alt": {
+       "name": "Tripwire",
+       "note": "Fa esplodere subito le mine: utile per sorprendere chi pensa di averle evitate."
+      }
+     },
+     "starPower": {
+      "name": "Snare A Bear",
+      "note": "Le mine stordiscono chi le calpesta: hai il tempo di colpire.",
+      "alt": {
+       "name": "Circling Eagle",
+       "note": "Vedi chi si nasconde nei cespugli."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Ti tiene in piedi mentre controlli lo spazio."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei ferito."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "vision",
+       "note": "Mappe con tanti cespugli."
+      }
+     ]
+    },
+    {
+     "title": "Sopravvivenza",
+     "when": "Duo e Trio Sopravvivenza.",
+     "gadget": {
+      "name": "Tripwire",
+      "note": "Fai esplodere le mine quando il nemico è vicino.",
+      "alt": {
+       "name": "Super Totem",
+       "note": "Se vuoi più mine."
+      }
+     },
+     "starPower": {
+      "name": "Circling Eagle",
+      "note": "Vedi chi si nasconde nei cespugli: sai sempre dove sono gli avversari.",
+      "alt": {
+       "name": "Snare A Bear",
+       "note": "Se vuoi più controllo."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "La difesa per gli scontri a sorpresa."
+      },
+      {
+       "gear": "vision",
+       "note": "Vedi ancora di più nei cespugli."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000017,
+     "note": "Le mine sulla zona costringono i nemici a stare lontani. Mappe: Ring of Fire, In the Liminal."
+    },
+    {
+     "id": 48000000,
+     "note": "Mine attorno al centro delle gemme. Mappe: Hard Rock Mine, Double Swoosh."
+    },
+    {
+     "id": 48000009,
+     "note": "Vede nei cespugli e controlla lo spazio."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000051,
+     "note": "Tank che spinge i nemici verso le mine."
+    },
+    {
+     "id": 16000108,
+     "note": "Colpisce chi cerca di evitare le mine."
+    },
+    {
+     "id": 16000106,
+     "note": "Insieme controllano lo spazio."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000020,
+      "note": "Lento: le mine lo fermano prima che arrivi."
+     },
+     {
+      "id": 16000069,
+      "note": "Deve avvicinarsi e le mine lo bloccano."
+     },
+     {
+      "id": 16000008,
+      "note": "L'orso finisce sulle mine."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000106,
+      "note": "Veloce e difficile da colpire."
+     },
+     {
+      "id": 16000108,
+      "note": "Ti tiene lontano e ti colpisce da distanza."
+     },
+     {
+      "id": 16000075,
+      "note": "Salta sopra le mine."
+     }
+    ]
+   }
+  },
+  "16000020": {
+   "overview": {
+    "role": "Tank con stordimento",
+    "difficulty": 2,
+    "tier": "C",
+    "tierNote": "Sotto la media in Ranked (circa 48% di vittorie) dopo i ritocchi di febbraio.",
+    "summary": "Frank è un tank con tantissima vita: il martello colpisce in area davanti a lui, ma prima di colpire si ferma un attimo. La super stordisce tutti nell'area: se arriva sui nemici raggruppati, decide lo scontro.",
+    "tips": [
+     "Prima di colpire Frank si ferma: non attaccare quando un nemico può scappare facilmente.",
+     "La super stordisce: usala su più nemici insieme, non su uno solo.",
+     "Calamita per brawler attira un nemico verso di te: tiralo vicino e colpiscilo.",
+     "Contro chi stordisce o rallenta, Cuffie antirumore ti rendono immune per un attimo.",
+     "Non andare in campo aperto contro tiratori: ti colpiscono prima che arrivi."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di base in Ranked.",
+     "gadget": {
+      "name": "Irresistible Attraction",
+      "note": "Attira un nemico verso di te: lo tiri dentro il martello o la super.",
+      "alt": {
+       "name": "Active Noise Canceling",
+       "note": "Contro squadre che stordiscono o rallentano."
+      }
+     },
+     "starPower": {
+      "name": "Sponge",
+      "note": "Più vita: resisti di più in prima linea.",
+      "alt": {
+       "name": "Power Grab",
+       "note": "Se abbatti spesso nemici: più danni per un po'."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Ancora più resistenza in prima linea."
+      },
+      {
+       "gear": "health",
+       "note": "Recuperi vita più in fretta."
+      }
+     ],
+     "altGears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei ferito."
+      }
+     ]
+    },
+    {
+     "title": "Contro il controllo",
+     "when": "Squadre con tanti stordimenti o rallentamenti.",
+     "gadget": {
+      "name": "Active Noise Canceling",
+      "note": "Per qualche secondo nessuno ti può fermare: arrivi sui nemici e colpisci.",
+      "alt": {
+       "name": "Irresistible Attraction",
+       "note": "Se gli avversari non stordiscono."
+      }
+     },
+     "starPower": {
+      "name": "Sponge",
+      "note": "Più vita per resistere.",
+      "alt": {
+       "name": "Power Grab",
+       "note": "Se vuoi più danni."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Resistenza in prima linea."
+      },
+      {
+       "gear": "health",
+       "note": "Recuperi vita tra uno scontro e l'altro."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000005,
+     "note": "La super davanti alla porta stordisce tutti. Mappe: Sneaky Fields, Center Stage."
+    },
+    {
+     "id": 48000017,
+     "note": "Resiste a lungo nella zona e stordisce chi entra. Mappa: Open Business."
+    },
+    {
+     "id": 48000009,
+     "note": "Tanta vita e colpi pesanti negli scontri ravvicinati."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000076,
+     "note": "Gli salta addosso e lo cura mentre Frank combatte."
+    },
+    {
+     "id": 16000075,
+     "note": "Arriva sui nemici storditi e li finisce."
+    },
+    {
+     "id": 16000034,
+     "note": "Insieme tengono la prima linea."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000051,
+      "note": "Tank lento che finisce dentro la super."
+     },
+     {
+      "id": 16000024,
+      "note": "Da vicino il martello la colpisce forte."
+     },
+     {
+      "id": 16000096,
+      "note": "Lento e grosso: facile da stordire."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000009,
+      "note": "Lancia oltre i muri e non riesci a raggiungerlo."
+     },
+     {
+      "id": 16000039,
+      "note": "Fa danni in base alla vita del bersaglio: Frank ne ha tanta."
+     },
+     {
+      "id": 16000014,
+      "note": "Le mine ti fermano prima che arrivi."
      }
     ]
    }
