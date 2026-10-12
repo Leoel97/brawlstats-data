@@ -121,6 +121,19 @@ Massimo ogni 6 ore o subito con il pull-to-refresh nella lista, l'app scarica `b
    }
 }
 ```
+
+Chiavi degli equipaggiamenti più comuni (campo `gear`):
+  - comuni: `damage`, `shield`, `health`, `speed`, `vision`, `reload`, `superCharge`, `gadgetCooldown`;
+  - esclusivi: `petPower`, `superRange`, `superTurret`, `thiccHead`, `exhaustingStorm`, `stickyOil`, `quadruplets`, `enduringToxins`, `stickySpikes`, `lingeringSmoke`.
+
+**Per un equipaggiamento esclusivo nuovo**
+Se Supercell aggiunge un equipaggiamento che l'app non conosce, scrivi nel campo `gear` la parola `mythic:` seguita dal nome italiano dell'equipaggiamento.
+```
+"gears": [
+  {"gear": "mythic:Stormo in forma", "note": "Perché sceglierlo, in una frase."},
+  {"gear": "shield", "note": "..."}
+]
+```
 ## :warning: Avviso "Nuova Versione"
 L'app verifica **`build`** di `version.json` e mostra il banner giallo **solo** se è più alto di quello installato.
 
