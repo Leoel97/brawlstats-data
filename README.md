@@ -121,3 +121,11 @@ Massimo ogni 6 ore o subito con il pull-to-refresh nella lista, l'app scarica `b
    }
 }
 ```
+## :warning: Avviso "Nuova Versione"
+L'app verifica **`build`** di `version.json` e mostra il banner giallo **solo** se è più alto di quello installato.
+
+## :rocket: Pubblica Nuova Versione
+1. In `pubspec.yaml` alza la versione: `1.1.0+2` → `1.2.0+3`.
+2. `flutter build apk --release --split-per-abi`
+3. Su GitHub: **Releases → Draft a new release**, tag `v1.2.0`, allega `app-arm64-v8a-release.apk` (rinomina in `BrawlStats-1.2.0.apk`), pubblica.
+4. Solo dopo, aggiorna su GitHub `version.json` con **`"build": 3` e `"version": "1.2.0"`.
