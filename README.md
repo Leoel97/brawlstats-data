@@ -5,7 +5,7 @@ Massimo ogni 6 ore o subito con il pull-to-refresh nella lista, l'app scarica `b
 
 ## :memo: Come aggiornare le build
 1. Modifica `builds.json`.
-2. Aggiorna **`updatedAt`** con la data di oggi (`AAAA-MM-GG`).
+2. Aggiorna **`updatedAt`** con la data di oggi (`AAAA-MM-GG` - per più volte nello stesso giorno `AAAA-MM-GGTHH:MM`).
 3. Controlla che il JSON sia valido (eventuali errori di sintassi).
 
 > **L'app usa sempre il dataset con la data più recente tra questo e quello già scaricato in app.**  
