@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updatedAt": "2026-10-12T19:00",
+ "updatedAt": "2026-10-12T20:00",
  "meta": "Meta di ottobre 2026",
  "sources": [
   "Dati Ranked SeeMeta (settembre – ottobre 2026)",
@@ -8626,6 +8626,1584 @@
      {
       "id": 16000106,
       "note": "Veloce: ti raggiunge prima che tu reagisca."
+     }
+    ]
+   }
+  },
+  "16000068": {
+   "overview": {
+    "role": "Tiratrice a pressione",
+    "difficulty": 2,
+    "tier": "A",
+    "tierNote": "Forte in Ranked (circa 51% di vittorie), soprattutto in Footbrawl.",
+    "summary": "Maisie spara razzi a pressione a lunga distanza. La super è un'onda d'urto attorno a lei che respinge i nemici vicini: la sua difesa contro chi le arriva addosso. Il suo gioco è colpire da lontano e usare l'onda quando un nemico prova ad avvicinarsi.",
+    "tips": [
+     "Il razzo fa più danni a distanza massima (con Precisione estrema): resta lontana.",
+     "Tieni la super per chi ti arriva addosso: lo respingi e lo allontani dalla porta o dalla zona.",
+     "Il gadget Disengage stordisce e ti fa scattare in avanti: entra o scappa al momento giusto.",
+     "Finish Them ricarica subito e rinforza il colpo su chi ha poca vita: usalo per chiudere.",
+     "Contro chi lancia oltre i muri sei in difficoltà: cerca linee di tiro aperte."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di quasi tutti.",
+     "gadget": {
+      "name": "Disengage",
+      "note": "Stordisci i nemici vicini mentre scatti in avanti: perfetto per uscire da una situazione difficile.",
+      "alt": {
+       "name": "Finish Them",
+       "note": "Se vuoi chiudere gli scontri: ricarichi subito e il prossimo razzo fa più danni a chi è ferito."
+      }
+     },
+     "starPower": {
+      "name": "Tremors",
+      "note": "L'onda d'urto rallenta anche i nemici colpiti: non riescono a tornare subito.",
+      "alt": {
+       "name": "Pinpoint Precision",
+       "note": "Se giochi molto lontano: il razzo fa più danni a distanza massima."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Ti dà margine contro chi ti salta addosso."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000005,
+     "note": "La sua modalità migliore in Ranked: l'onda respinge chi porta la palla. Mappa: Sneaky Fields."
+    },
+    {
+     "id": 48000020,
+     "note": "Colpisce da lontano e si difende con l'onda."
+    },
+    {
+     "id": 48000003,
+     "note": "Lunga gittata senza esporsi."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000043,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000095,
+     "note": "Entra mentre Maisie colpisce da lontano."
+    },
+    {
+     "id": 16000000,
+     "note": "Tiene lontani gli assassini."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000106,
+      "note": "Il suo matchup migliore nei dati: l'onda lo respinge appena arriva."
+     },
+     {
+      "id": 16000100,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000066,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000102,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000098,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000006,
+      "note": "Lancia oltre i muri."
+     }
+    ]
+   }
+  },
+  "16000069": {
+   "overview": {
+    "role": "Tank a palloncino",
+    "difficulty": 2,
+    "tier": "B",
+    "tierNote": "Nella media in Ranked (circa 50% di vittorie), molto forte in Zona calda.",
+    "summary": "Hank carica l'attacco tenendo premuto: il palloncino si gonfia e, quando lo rilasci, esplode facendo più danni quanto più era grande. La super lancia siluri a ventaglio. Ha tanta vita: il suo gioco è avvicinarsi caricando e scoppiare il palloncino sui nemici.",
+    "tips": [
+     "Più carichi, più fai danni: arriva addosso con il palloncino già gonfio.",
+     "Mentre carichi sei più lento: non caricare in campo aperto contro i tiratori.",
+     "Barricata riduce molto i danni per qualche secondo: usala prima di entrare.",
+     "I siluri della super vanno a ventaglio: usali su gruppi.",
+     "Con Copertura tattica subisci meno danni vicino ai muri: resta accanto alle coperture."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata.",
+     "gadget": {
+      "name": "Barricade",
+      "note": "Subisci molti meno danni per qualche secondo: arrivi addosso ai nemici con più vita.",
+      "alt": {
+       "name": "Water Balloons",
+       "note": "Il prossimo palloncino rallenta i nemici."
+      }
+     },
+     "starPower": {
+      "name": "Its Gonna Blow",
+      "note": "Con il palloncino carico oltre l'80% ti muovi più veloce: arrivi prima.",
+      "alt": {
+       "name": "Take Cover",
+       "note": "Se combatti vicino ai muri: subisci meno danni."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "health",
+       "note": "Recuperi vita più in fretta."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000017,
+     "note": "La sua modalità migliore in Ranked: tanta vita e palloncini sulla zona."
+    },
+    {
+     "id": 48000005,
+     "note": "Arriva sulla porta con il palloncino carico."
+    },
+    {
+     "id": 48000020,
+     "note": "Resiste negli scontri finali."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000030,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000012,
+     "note": "Il veleno indebolisce i nemici che Hank raggiunge."
+    },
+    {
+     "id": 16000043,
+     "note": "Entrano insieme sui nemici."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000100,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000106,
+      "note": "Non riesce a fermarlo."
+     },
+     {
+      "id": 16000095,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000030,
+      "note": "Il suo matchup peggiore nei dati: la nube lo consuma mentre carica."
+     },
+     {
+      "id": 16000009,
+      "note": "Lancia oltre i muri."
+     },
+     {
+      "id": 16000014,
+      "note": "Le mine lo fermano."
+     }
+    ]
+   }
+  },
+  "16000070": {
+   "overview": {
+    "role": "Assassino uno contro uno",
+    "difficulty": 3,
+    "tier": "C",
+    "tierNote": "Sotto la media in Ranked (circa 46% di vittorie). Rende meglio in Rapina.",
+    "summary": "Cordelius spara funghi a coppie a media distanza. La super porta lui e un nemico nel Regno delle Ombre: un duello uno contro uno dove nessun altro può entrare e il nemico non può usare gadget né super. Il suo gioco è isolare il nemico più pericoloso e batterlo da solo.",
+    "tips": [
+     "Nel Regno delle Ombre il nemico non ha gadget né super: scegli chi dipende molto da quelli.",
+     "Entra nel duello con vita piena: lì non può aiutarti nessuno.",
+     "Kit di amanite impedisce al nemico di attaccare per un attimo: usalo nel duello.",
+     "Con Champicombo, se colpisci con entrambi i funghi fai più danni.",
+     "Fuori dal duello sei fragile: non restare esposto."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata.",
+     "gadget": {
+      "name": "Poison Mushroom",
+      "note": "Il prossimo fungo impedisce al nemico di attaccare per un attimo: nel duello vale oro.",
+      "alt": {
+       "name": "Replanting",
+       "note": "Salti oltre un ostacolo: arrivi o scappi passando dove gli altri non possono."
+      }
+     },
+     "starPower": {
+      "name": "Comboshrooms",
+      "note": "Il secondo fungo sullo stesso nemico fa molti più danni.",
+      "alt": {
+       "name": "Mushroom Kingdom",
+       "note": "Dopo la super lasci funghi che curano i compagni e danneggiano i nemici."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Ti fa entrare nel duello con più vita."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000002,
+     "note": "La sua modalità migliore in Ranked: toglie di mezzo il difensore principale."
+    },
+    {
+     "id": 48000005,
+     "note": "Porta via il portatore di palla."
+    },
+    {
+     "id": 48000017,
+     "note": "Toglie dalla zona il nemico più forte."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000087,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000048,
+     "note": "Colpisce da lontano mentre Cordelius isola un nemico."
+    },
+    {
+     "id": 16000020,
+     "note": "Tank che tiene la linea mentre Cordelius duella."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000106,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000100,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000075,
+      "note": "Senza i suoi salti nel duello è debole."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000102,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000108,
+      "note": "Ti tiene lontano."
+     },
+     {
+      "id": 16000062,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     }
+    ]
+   }
+  },
+  "16000071": {
+   "overview": {
+    "role": "Supporto da mischia",
+    "difficulty": 2,
+    "tier": "A",
+    "tierNote": "Forte in Ranked (circa 51% di vittorie), soprattutto in Zona calda e Footbrawl.",
+    "summary": "Doug attacca da vicino con un morso che cura i compagni e danneggia i nemici nell'area davanti a lui. La super dà a un compagno una seconda vita: se muore entro qualche secondo, torna subito in campo. Il suo gioco è stare in prima linea con la squadra e curare mentre colpisce.",
+    "tips": [
+     "Lo stesso attacco cura i compagni e danneggia i nemici: mettiti dove ci sono entrambi.",
+     "La super va sul compagno che sta per entrare in uno scontro rischioso.",
+     "Doppia salsa piccante fa solo danni ma doppi: usala per chiudere.",
+     "Con Self service anche tu ti curi a ogni attacco.",
+     "Ha vita discreta ma attacca da vicino: contro i tiratori resta coperto."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di quasi tutti.",
+     "gadget": {
+      "name": "Extra Mustard",
+      "note": "Il prossimo attacco fa solo danni, ma doppi: chiudi uno scontro.",
+      "alt": {
+       "name": "Double Sausage",
+       "note": "Il prossimo attacco cura solo i compagni, ma il doppio."
+      }
+     },
+     "starPower": {
+      "name": "Self Service",
+      "note": "Ogni attacco cura anche te: resti in prima linea più a lungo.",
+      "alt": {
+       "name": "Fast Food",
+       "note": "Quando un compagno torna in vita grazie alla super, ti curi."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000017,
+     "note": "La sua modalità migliore in Ranked: cura e danneggia chi è nella zona."
+    },
+    {
+     "id": 48000005,
+     "note": "Tiene in vita chi porta la palla."
+    },
+    {
+     "id": 48000020,
+     "note": "La seconda vita è decisiva quando non si rinasce."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000004,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000023,
+     "note": "Con la seconda vita entra senza paura."
+    },
+    {
+     "id": 16000000,
+     "note": "Insieme dominano gli scontri ravvicinati."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000106,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000100,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000107,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000102,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000050,
+      "note": "Lo punisce da media distanza."
+     },
+     {
+      "id": 16000041,
+      "note": "Lo congela prima che arrivi."
+     }
+    ]
+   }
+  },
+  "16000072": {
+   "overview": {
+    "role": "Danni con calore",
+    "difficulty": 2,
+    "tier": "A",
+    "tierNote": "Forte in Ranked (circa 51% di vittorie), soprattutto in Eliminazione.",
+    "summary": "Pearl ha una barra di calore: più è piena, più il suo attacco fa danni. La super consuma calore per lanciare un colpo potente. Il suo gioco è gestire il calore: tenerlo alto negli scontri e usare la super al momento giusto.",
+    "tips": [
+     "Più calore hai, più fai danni: non sprecarlo prima dello scontro.",
+     "La super consuma calore: usala quando chiude lo scontro, non a caso.",
+     "Cuor di male fa bruciare i nemici: danni continui nel tempo.",
+     "Con Scudo termico, a calore alto subisci meno danni.",
+     "Ricetta perfetta cura i compagni invece di colpire i nemici."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di quasi tutti.",
+     "gadget": {
+      "name": "Overcooked",
+      "note": "Il prossimo attacco brucia: danni in più nel tempo.",
+      "alt": {
+       "name": "Made With Love",
+       "note": "Se vuoi curare: il prossimo attacco cura i compagni."
+      }
+     },
+     "starPower": {
+      "name": "Heat Shield",
+      "note": "A calore alto subisci meno danni: resisti negli scontri.",
+      "alt": {
+       "name": "Heat Retention",
+       "note": "La super consuma meno calore."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000020,
+     "note": "La sua modalità migliore in Ranked. Mappa: Out in the Open."
+    },
+    {
+     "id": 48000003,
+     "note": "Danni alti a media distanza."
+    },
+    {
+     "id": 48000000,
+     "note": "Tiene il centro con il calore alto."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000003,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000109,
+     "note": "Insieme controllano lo spazio."
+    },
+    {
+     "id": 16000004,
+     "note": "Copre gli angoli che Pearl non vede."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000106,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000081,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000064,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000016,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000090,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000102,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     }
+    ]
+   }
+  },
+  "16000073": {
+   "overview": {
+    "role": "Controllo con binari",
+    "difficulty": 3,
+    "tier": "C",
+    "tierNote": "Sotto la media in Ranked (circa 49% di vittorie). Rende meglio in Rapina.",
+    "summary": "Chuck piazza dei pali sulla mappa con il suo attacco. La super lo fa correre come un treno da un palo all'altro, colpendo chi trova sul percorso. Il suo gioco è preparare i pali in anticipo per muoversi velocemente e travolgere i nemici.",
+    "tips": [
+     "Piazza i pali prima dello scontro: senza pali la super non ti porta lontano.",
+     "La super ti muove lungo i pali: progetta il percorso sopra i nemici.",
+     "Deviatoio toglie il palo più vicino e ti carica metà super.",
+     "Treno fantasma fa passare la super attraverso i muri per qualche secondo.",
+     "In Rapina un percorso fino alla cassaforte è la sua arma migliore."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata.",
+     "gadget": {
+      "name": "Rerouting",
+      "note": "Togli il palo più vicino e ricarichi metà super.",
+      "alt": {
+       "name": "Ghost Train",
+       "note": "Per qualche secondo la super passa attraverso i muri."
+      }
+     },
+     "starPower": {
+      "name": "Pit Stop",
+      "note": "Piazzando un palo rallenti i nemici colpiti.",
+      "alt": {
+       "name": "Tickets Please",
+       "note": "Passando sui nemici con la super rubi loro munizioni."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000002,
+     "note": "La sua modalità migliore in Ranked: un percorso di pali fino alla cassaforte."
+    },
+    {
+     "id": 48000017,
+     "note": "Passa sulla zona travolgendo chi c'è."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000023,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000020,
+     "note": "Tank che tiene la linea mentre Chuck passa."
+    },
+    {
+     "id": 16000005,
+     "note": "Le spine rallentano, Chuck travolge."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000048,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000077,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000014,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000075,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000107,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000094,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     }
+    ]
+   }
+  },
+  "16000074": {
+   "overview": {
+    "role": "Controllo con bozzolo",
+    "difficulty": 2,
+    "tier": "C",
+    "tierNote": "Sotto la media in Ranked (circa 48% di vittorie). Rende meglio in Arraffagemme.",
+    "summary": "Charlie lancia uno yo-yo che va e torna, colpendo all'andata e al ritorno. La super chiude un nemico in un bozzolo: per qualche secondo non può fare nulla. Il suo gioco è togliere dallo scontro il nemico più pericoloso e colpire gli altri.",
+    "tips": [
+     "Lo yo-yo colpisce due volte: tieni il nemico sulla traiettoria anche al ritorno.",
+     "Il bozzolo toglie un nemico dallo scontro: usalo sul più pericoloso.",
+     "Mentre il nemico è nel bozzolo, colpisci gli altri.",
+     "Aracnoamici evoca ragni che inseguono i nemici.",
+     "Medi-bozzolo ti chiude nel bozzolo e ti cura."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata.",
+     "gadget": {
+      "name": "Spiders",
+      "note": "Ragni che inseguono e attaccano i nemici vicini.",
+      "alt": {
+       "name": "Personal Space",
+       "note": "Ti chiudi nel bozzolo e ti curi."
+      }
+     },
+     "starPower": {
+      "name": "Digestive",
+      "note": "Chi è nel bozzolo perde vita mentre è chiuso.",
+      "alt": {
+       "name": "Slimy",
+       "note": "Il bozzolo lascia una scia che rallenta."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000000,
+     "note": "La sua modalità migliore in Ranked: chiude nel bozzolo chi porta le gemme."
+    },
+    {
+     "id": 48000005,
+     "note": "Chiude il portatore di palla."
+    },
+    {
+     "id": 48000020,
+     "note": "Toglie un nemico dallo scontro finale."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000038,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000073,
+     "note": "Insieme controllano lo spazio."
+    },
+    {
+     "id": 16000015,
+     "note": "Colpisce da lontano il nemico chiuso nel bozzolo."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000106,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000083,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000101,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000077,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000030,
+      "note": "La nube la consuma."
+     },
+     {
+      "id": 16000019,
+      "note": "I sacchetti si aprono su lei e i suoi ragni."
+     }
+    ]
+   }
+  },
+  "16000075": {
+   "overview": {
+    "role": "Assassino saltatore",
+    "difficulty": 2,
+    "tier": "B",
+    "tierNote": "Nella media in Ranked (circa 49% di vittorie), molto forte in Rapina.",
+    "summary": "Mico attacca saltando: salta oltre i muri e colpisce dove atterra. La super è un salto lunghissimo durante il quale non può essere colpito, con danni all'atterraggio. Il suo gioco è superare i muri e piombare sui brawler fragili.",
+    "tips": [
+     "Ogni attacco è un salto: puoi superare muri e acqua.",
+     "Durante la super sei intoccabile: usala per entrare o per scappare.",
+     "Con Mano lesta ogni tanto rubi munizioni ai nemici colpiti.",
+     "Megafono assordante rallenta e fa danni al nemico più vicino.",
+     "Punta i lanciatori e i tiratori fragili."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di quasi tutti.",
+     "gadget": {
+      "name": "Clipping Scream",
+      "note": "Un urlo verso il nemico più vicino che fa danni e lo rallenta.",
+      "alt": {
+       "name": "Presto",
+       "note": "Il prossimo salto va più lontano."
+      }
+     },
+     "starPower": {
+      "name": "Monkey Business",
+      "note": "Ogni tanto l'attacco ruba munizioni ai nemici colpiti.",
+      "alt": {
+       "name": "Record Smash",
+       "note": "Più danni a torrette, evocati e casseforti."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000002,
+     "note": "La sua modalità migliore in Ranked: salta i muri e arriva sulla cassaforte. Mappa: Hot Potato."
+    },
+    {
+     "id": 48000020,
+     "note": "Piomba sui tiratori nascosti."
+    },
+    {
+     "id": 48000003,
+     "note": "Finisce i nemici isolati."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000005,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000012,
+     "note": "Il veleno indebolisce i nemici su cui Mico salta."
+    },
+    {
+     "id": 16000077,
+     "note": "Insieme mettono pressione."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000037,
+      "note": "Il suo matchup migliore nei dati: salta sopra le siepi."
+     },
+     {
+      "id": 16000098,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000073,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000108,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000066,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000106,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     }
+    ]
+   }
+  },
+  "16000076": {
+   "overview": {
+    "role": "Supporto aggrappato",
+    "difficulty": 2,
+    "tier": "F",
+    "tierNote": "Tra i più deboli in Ranked (circa 43% di vittorie): meglio in Eliminazione o con un compagno tank.",
+    "summary": "Kit graffia da vicino. La super lo fa saltare: su un compagno ci si aggrappa, lo cura e attacca da lì; su un nemico lo blocca e lo colpisce. Il suo gioco è aggrapparsi a un compagno forte e renderlo ancora più forte.",
+    "tips": [
+     "Aggrappato a un compagno lo curi e attacchi insieme a lui: scegli un tank.",
+     "Saltando su un nemico lo blocchi: usalo su chi è isolato.",
+     "Scatola di cartone ti rende invisibile e ti carica la super stando fermo.",
+     "Da solo sei fragile: resta sempre vicino ai compagni.",
+     "Con Fame al cubo ottieni più potenza dai cubi in Sopravvivenza."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata.",
+     "gadget": {
+      "name": "Cardboard Box",
+      "note": "Ti nascondi in una scatola: diventi invisibile e, se resti fermo, la super si carica più in fretta.",
+      "alt": {
+       "name": "Cheeseburger",
+       "note": "Curi te stesso e il compagno a cui sei aggrappato."
+      }
+     },
+     "starPower": {
+      "name": "Power Hungry",
+      "note": "Ottieni più potenza da ogni cubo: utile in Sopravvivenza.",
+      "alt": {
+       "name": "Overly Attached",
+       "note": "Resti aggrappato più a lungo al compagno."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000020,
+     "note": "In Ranked rende meglio qui: aggrappato al compagno giusto decide lo scontro finale."
+    },
+    {
+     "id": 48000003,
+     "note": "Rende più forte il compagno che porta le stelle."
+    },
+    {
+     "id": 48000009,
+     "note": "Aggrappato al compagno è molto forte."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000024,
+     "note": "Nei dati il compagno con cui rende di più: tank che diventa quasi imbattibile."
+    },
+    {
+     "id": 16000020,
+     "note": "Tank che resiste con Kit addosso."
+    },
+    {
+     "id": 16000000,
+     "note": "Insieme dominano gli scontri ravvicinati."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000106,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000037,
+      "note": "Fragile: lo blocchi e lo finisci."
+     },
+     {
+      "id": 16000103,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000020,
+      "note": "Lo stordimento lo stacca dal compagno."
+     },
+     {
+      "id": 16000050,
+      "note": "Lo punisce da media distanza."
+     },
+     {
+      "id": 16000071,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     }
+    ]
+   }
+  },
+  "16000077": {
+   "overview": {
+    "role": "Lanciatore in coppia",
+    "difficulty": 2,
+    "tier": "B",
+    "tierNote": "Nella media in Ranked (circa 50% di vittorie), molto forte in Footbrawl.",
+    "summary": "Larry lancia proiettili oltre i muri. La super schiera Lawrie, il suo compagno robot, che combatte da solo per qualche tempo. Il loro gioco è controllare la mappa in due, da due posizioni diverse.",
+    "tips": [
+     "Lawrie combatte da solo: piazzalo dove i nemici devono passare.",
+     "Con Protocol Protect, quando Lawrie è vicino prende parte dei danni al posto tuo.",
+     "Order Fall Back fa scattare Larry e Lawrie l'uno verso l'altro e li cura.",
+     "Lanci oltre i muri: colpisci chi si nasconde.",
+     "In Footbrawl Lawrie davanti alla porta è un difensore in più."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata.",
+     "gadget": {
+      "name": "Order Fall Back",
+      "note": "Larry e Lawrie scattano l'uno verso l'altro e si curano.",
+      "alt": {
+       "name": "Order Swap",
+       "note": "Scambi l'arma con Lawrie."
+      }
+     },
+     "starPower": {
+      "name": "Protocol Protect",
+      "note": "Con Lawrie vicino, parte dei danni che subisci va a lui.",
+      "alt": {
+       "name": "Protocol Assist",
+       "note": "Quando Lawrie colpisce un nemico, ricarichi munizioni."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000005,
+     "note": "La sua modalità migliore in Ranked. Mappe: Beach Ball, Triple Dribble."
+    },
+    {
+     "id": 48000017,
+     "note": "Due posizioni sulla zona invece di una."
+    },
+    {
+     "id": 48000020,
+     "note": "Colpiscono oltre i muri."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000086,
+     "note": "Nei dati il compagno con cui vincono di più."
+    },
+    {
+     "id": 16000045,
+     "note": "Arriva veloce sui nemici colpiti."
+    },
+    {
+     "id": 16000026,
+     "note": "Respinge chi arriva su Larry."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000066,
+      "note": "Uno dei loro matchup migliori nei dati."
+     },
+     {
+      "id": 16000074,
+      "note": "Uno dei loro matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000086,
+      "note": "Il loro matchup peggiore nei dati."
+     },
+     {
+      "id": 16000043,
+      "note": "Salta su Larry e lo finisce."
+     },
+     {
+      "id": 16000022,
+      "note": "Uno dei loro matchup peggiori nei dati."
+     }
+    ]
+   }
+  },
+  "16000078": {
+   "overview": {
+    "role": "Assassina con note",
+    "difficulty": 3,
+    "tier": "A",
+    "tierNote": "Tra le migliori in Ranked (circa 53% di vittorie), fortissima in Rapina.",
+    "summary": "Melodie colpisce a media distanza: ogni colpo a segno crea una nota che le gira intorno e fa danni a chi tocca. La super è una serie di scatti rapidi. Il suo gioco è accumulare note e poi scattare addosso ai nemici, che vengono colpiti dalle note.",
+    "tips": [
+     "Più note ti girano intorno, più fai danni da vicino: accumulale prima di entrare.",
+     "La super ti fa scattare più volte: entra, colpisci con le note ed esci.",
+     "Barriera del suono ti dà uno scudo per ogni nota: con tante note sei molto resistente.",
+     "Con Ritmo serrato ogni nota ti fa correre più veloce.",
+     "Le note svaniscono dopo un po': non aspettare troppo."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata.",
+     "gadget": {
+      "name": "Interlude",
+      "note": "Ogni nota che ti gira intorno ti dà uno scudo: entri con molta più vita.",
+      "alt": {
+       "name": "Perfect Pitch",
+       "note": "Le note girano più veloci e più larghe per qualche secondo."
+      }
+     },
+     "starPower": {
+      "name": "Fast Beats",
+      "note": "Ogni nota ti fa correre più veloce.",
+      "alt": {
+       "name": "Extended Mix",
+       "note": "Le note durano di più."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000002,
+     "note": "La sua modalità migliore in Ranked. Mappe: Safe Zone, Kaboom Canyon, Hot Potato."
+    },
+    {
+     "id": 48000000,
+     "note": "Entra su chi porta le gemme."
+    },
+    {
+     "id": 48000003,
+     "note": "Finisce i nemici isolati."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000040,
+     "note": "Nei dati la compagna con cui vince di più."
+    },
+    {
+     "id": 16000086,
+     "note": "Entrano insieme."
+    },
+    {
+     "id": 16000107,
+     "note": "Uno dei compagni con cui vince di più."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000075,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000106,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000095,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000026,
+      "note": "Il suo matchup peggiore nei dati: la respinge appena arriva."
+     },
+     {
+      "id": 16000066,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000046,
+      "note": "La colpisce da lontano."
+     }
+    ]
+   }
+  },
+  "16000079": {
+   "overview": {
+    "role": "Arciere",
+    "difficulty": 2,
+    "tier": "A",
+    "tierNote": "Nella fascia alta in Ranked (circa 50% di vittorie), forte in Eliminazione e Taglia.",
+    "summary": "Angelo tira con l'arco: tenendo premuto carica la freccia, che va più lontano e fa più danni. La super crea un'area velenosa che danneggia i nemici. Il suo gioco è colpire da lontanissimo con frecce cariche.",
+    "tips": [
+     "Carica sempre la freccia: un colpo pieno fa molti più danni.",
+     "L'area della super danneggia i nemici: usala dove si nascondono.",
+     "Ali vampiriche ti fa volare e ruba vita ai nemici vicini.",
+     "Con Omeopatia, restando nella tua super ti curi.",
+     "Mentre carichi sei lento: scegli posizioni sicure."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di quasi tutti.",
+     "gadget": {
+      "name": "Stinging Flight",
+      "note": "Voli per qualche secondo e rubi vita ai nemici vicini quando decolli.",
+      "alt": {
+       "name": "Master Fletcher",
+       "note": "La prossima freccia attraversa nemici e muri."
+      }
+     },
+     "starPower": {
+      "name": "Empower",
+      "note": "Restando nell'area della super ti curi.",
+      "alt": {
+       "name": "Flow",
+       "note": "Dopo essere entrato in acqua corri più veloce."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000020,
+     "note": "La sua modalità migliore in Ranked. Mappa: Out in the Open."
+    },
+    {
+     "id": 48000003,
+     "note": "Frecce cariche da lontanissimo."
+    },
+    {
+     "id": 48000002,
+     "note": "Colpisce la cassaforte da lontano."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000012,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000005,
+     "note": "Le spine rallentano, le frecce colpiscono."
+    },
+    {
+     "id": 16000004,
+     "note": "Copre gli angoli che Angelo non raggiunge."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000012,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000004,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000043,
+      "note": "Lo colpisci prima che salti."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000102,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000106,
+      "note": "Veloce: difficile da colpire con frecce lente."
+     },
+     {
+      "id": 16000080,
+      "note": "Tank che lo raggiunge."
+     }
+    ]
+   }
+  },
+  "16000080": {
+   "overview": {
+    "role": "Tank con drago",
+    "difficulty": 2,
+    "tier": "A",
+    "tierNote": "Forte in Ranked (circa 51% di vittorie), soprattutto in Zona calda.",
+    "summary": "Draco colpisce con una lancia a media distanza e ha tanta vita. La super lo fa salire sul suo drago per qualche secondo: sputa fuoco ad area e diventa molto più resistente. Il suo gioco è avvicinarsi e scatenare il drago sui gruppi.",
+    "tips": [
+     "La lancia arriva più lontano di un normale attacco da mischia: sfruttala.",
+     "Sul drago fai danni ad area: usalo quando i nemici sono raggruppati.",
+     "Ultimo baluardo ti impedisce di scendere sotto 1 di vita per qualche secondo: sopravvivi a un colpo mortale.",
+     "Con Sminuzzamento, salire sul drago ti cura.",
+     "Contro chi rallenta o congela sei in difficoltà."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata.",
+     "gadget": {
+      "name": "Last Stand",
+      "note": "Per qualche secondo non puoi scendere sotto 1 di vita: sopravvivi a un colpo mortale.",
+      "alt": {
+       "name": "Upper Cut",
+       "note": "La prossima stoccata lancia in aria i nemici."
+      }
+     },
+     "starPower": {
+      "name": "Shredding",
+      "note": "Salire sul drago ti cura.",
+      "alt": {
+       "name": "Expose",
+       "note": "Ogni tanto la stoccata rende i nemici più vulnerabili ai danni."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000017,
+     "note": "La sua modalità migliore in Ranked: il drago sulla zona. Mappa: In the Liminal."
+    },
+    {
+     "id": 48000000,
+     "note": "Tiene il centro delle gemme."
+    },
+    {
+     "id": 48000005,
+     "note": "Arriva sulla porta con il drago."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000012,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000020,
+     "note": "Due tank che tengono la prima linea."
+    },
+    {
+     "id": 16000042,
+     "note": "Le cure di Byron lo tengono in campo."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000079,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000093,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000003,
+      "note": "Lo raggiunge e i razzi non bastano."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000102,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000104,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000039,
+      "note": "Fa danni in base alla vita: contro un tank colpisce forte."
+     }
+    ]
+   }
+  },
+  "16000081": {
+   "overview": {
+    "role": "Assassina con teletrasporto",
+    "difficulty": 3,
+    "tier": "D",
+    "tierNote": "Tra le più deboli in Ranked (circa 46% di vittorie).",
+    "summary": "Lily colpisce da vicino con colpi rapidi. La super si carica quando ci sono nemici vicini e le permette di teletrasportarsi addosso a uno di loro. Il suo gioco è avvicinarsi di nascosto, teletrasportarsi sul bersaglio e finirlo.",
+    "tips": [
+     "La super si carica con i nemici vicini: avvicinati restando nascosta.",
+     "Dopo il teletrasporto, con Lama affilata il primo colpo fa più danni.",
+     "Trasmigratore ti porta nel Regno delle Ombre per qualche secondo: sparisci da uno scontro.",
+     "Riposizionatore trasforma il prossimo attacco in un lancio e ti teletrasporta dove atterra.",
+     "Punta i lanciatori fragili."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta di quasi tutti.",
+     "gadget": {
+      "name": "Vanish",
+      "note": "Entri nel Regno delle Ombre per qualche secondo: sparisci e torni quando vuoi.",
+      "alt": {
+       "name": "Repot",
+       "note": "Il prossimo attacco diventa un lancio e ti teletrasporti dove atterra."
+      }
+     },
+     "starPower": {
+      "name": "Spiky",
+      "note": "Dopo il teletrasporto il primo colpo fa più danni.",
+      "alt": {
+       "name": "Vigilance",
+       "note": "Con un nemico nell'area della super ti muovi più veloce."
+      }
+     },
+     "gears": [
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      },
+      {
+       "gear": "gadgetCooldown",
+       "note": "Più gadget nel corso della partita."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000020,
+     "note": "La sua modalità migliore in Ranked."
+    },
+    {
+     "id": 48000002,
+     "note": "Si teletrasporta sui difensori."
+    },
+    {
+     "id": 48000003,
+     "note": "Finisce i nemici isolati."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000006,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000009,
+     "note": "Le bombe indeboliscono i nemici su cui Lily arriva."
+    },
+    {
+     "id": 16000087,
+     "note": "Copre altre zone."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000037,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000098,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000048,
+      "note": "Lanciatore fragile: lo raggiungi e lo finisci."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000071,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000066,
+      "note": "Uno dei suoi matchup peggiori nei dati."
+     },
+     {
+      "id": 16000034,
+      "note": "La attira e la colpisce da vicino."
+     }
+    ]
+   }
+  },
+  "16000082": {
+   "overview": {
+    "role": "Supporto col gelato",
+    "difficulty": 2,
+    "tier": "D",
+    "tierNote": "Tra i più deboli in Ranked (circa 44% di vittorie). Rende un po' meglio in Rapina.",
+    "summary": "Berry lancia gelato che crea un'area: cura i compagni e danneggia i nemici che ci stanno sopra. La super lo fa scivolare in avanti lasciando gelato sul percorso. Il suo gioco è riempire di gelato il terreno dove combatte la squadra.",
+    "tips": [
+     "L'area di gelato cura i compagni e danneggia i nemici: lanciala dove si scontrano.",
+     "La super lascia una scia di gelato: passaci sopra la squadra.",
+     "Coda multifunzione respinge i nemici e cura i compagni vicini.",
+     "Con Gelato miracoloso, stando sul tuo gelato ricarichi più in fretta.",
+     "Hai vita media: non stare in prima linea."
+    ]
+   },
+   "builds": [
+    {
+     "title": "Standard",
+     "when": "La scelta più usata.",
+     "gadget": {
+      "name": "Friendship Is Great",
+      "note": "Un colpo di coda che respinge i nemici e cura i compagni vicini.",
+      "alt": {
+       "name": "Healthy Additives",
+       "note": "La prossima area di gelato dura di più."
+      }
+     },
+     "starPower": {
+      "name": "Floor Is Fine",
+      "note": "Sul tuo gelato ricarichi più in fretta.",
+      "alt": {
+       "name": "Making A Mess",
+       "note": "Più danni dove non c'è gelato."
+      }
+     },
+     "gears": [
+      {
+       "gear": "shield",
+       "note": "Più resistenza."
+      },
+      {
+       "gear": "damage",
+       "note": "Più danni quando sei sotto metà vita."
+      }
+     ]
+    }
+   ],
+   "modes": [
+    {
+     "id": 48000002,
+     "note": "La sua modalità migliore in Ranked."
+    },
+    {
+     "id": 48000017,
+     "note": "Il gelato sulla zona cura la squadra."
+    }
+   ],
+   "teammates": [
+    {
+     "id": 16000026,
+     "note": "Nei dati il compagno con cui rende di più."
+    },
+    {
+     "id": 16000085,
+     "note": "Entra e torna a curarsi sul gelato."
+    },
+    {
+     "id": 16000069,
+     "note": "Tank che resiste sul gelato."
+    }
+   ],
+   "matchups": {
+    "strong": [
+     {
+      "id": 16000051,
+      "note": "Il suo matchup migliore nei dati."
+     },
+     {
+      "id": 16000074,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     },
+     {
+      "id": 16000090,
+      "note": "Uno dei suoi matchup migliori nei dati."
+     }
+    ],
+    "weak": [
+     {
+      "id": 16000109,
+      "note": "Il suo matchup peggiore nei dati."
+     },
+     {
+      "id": 16000022,
+      "note": "Le mine lo colpiscono da lontano."
+     },
+     {
+      "id": 16000107,
+      "note": "Uno dei suoi matchup peggiori nei dati."
      }
     ]
    }
